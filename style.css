@@ -7,11 +7,7 @@ body{
     background-image: url(images/Group\ 1939.png);
     background-repeat: no-repeat;
 }
-.display{
-    margin: auto;
-    width: 1180px;
-    /* background-color: aqua; */
-}
+
 /* Heading caption */
 .caption h1{
     font-size: 50px;
@@ -35,4 +31,23 @@ body{
     line-height: 19.36px;
     text-decoration: none;
     color: rgba(166, 166, 166, 1);
+}
+.bg-color{
+    background-color: rgba(84, 189, 149, 1);
+    color: rgb(251, 251, 253)
+}
+/* Increase area style  */
+.increase-area{
+    margin-top: 100px;
+}
+.inc-heading h2{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 90px;
+    color: rgba(25, 26, 21, 1);
+}
+.inc-img img{
+    width: 701.68px;
+    height: 558.99px;
+    /* some isue image width */
 }
