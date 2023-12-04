@@ -5,6 +5,7 @@
 body{
     /* background-color: hsl(0, 9%, 48%); */
     background-image: url(images/Group\ 1939.png);
+    background-repeat: no-repeat;
 }
 .display{
     margin: auto;
@@ -15,6 +16,7 @@ body{
 .caption h1{
     font-size: 50px;
     font-weight: 600;
+    margin-top: 10px;
     line-height: 30px;
     color: rgba(84, 189, 149, 1);
 }
@@ -24,13 +26,13 @@ body{
     font-weight: 500;
     line-height: 21.78px;
     color: rgba(0, 0, 0, 1);
+    margin-left: 22px;
 }
 /* Button area style */
 .login a{
-    line-height: 19.36px;
     font-size: 16px;
     font-weight: 500;
-
+    line-height: 19.36px;
     text-decoration: none;
     color: rgba(166, 166, 166, 1);
 }
