@@ -46,6 +46,18 @@ body{
     line-height: 90px;
     color: rgba(25, 26, 21, 1);
 }
+.border-img{
+    width: 479px;
+    height: 26px;
+    margin-top: 20px;
+}
+.inc-heading P{
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 1);
+}
 .inc-img img{
     width: 701.68px;
     height: 558.99px;
