@@ -4,12 +4,33 @@
 }
 body{
     /* background-color: hsl(0, 9%, 48%); */
+    background-image: url(images/Group\ 1939.png);
 }
 .display{
-    width: 1180px;
     margin: auto;
+    width: 1180px;
     /* background-color: aqua; */
 }
-.header{
-    
+/* Heading caption */
+.caption h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgba(84, 189, 149, 1);
+}
+/* Menu Items style */
+.menu a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    color: rgba(0, 0, 0, 1);
+}
+/* Button area style */
+.login a{
+    line-height: 19.36px;
+    font-size: 16px;
+    font-weight: 500;
+
+    text-decoration: none;
+    color: rgba(166, 166, 166, 1);
 }
