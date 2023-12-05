@@ -81,22 +81,24 @@ body{
 .play-wiew{
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: center;
 }
-.trail-btn a{
+.trail-btn{
+    width: 165px;
+    color: red;
+    height: 62px;
     font-size: 18px;
     font-weight: 500;
-    line-height: 21px;
     border-radius: 40px;
-    text-decoration: none;  
+    background-color: gray;
+    background-color: #54BD95;
     color: rgba(255, 255, 255, 1);
-    background-color: rgba(84, 189, 149, 1);
-    padding: 12px 15px
 }
 .play img{
-    width: 40px;
+    width: 152px;
     height: 40px;
+    margin-top: 12px;
 }
 .view h5{
     margin: auto;
