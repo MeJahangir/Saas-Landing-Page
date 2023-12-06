@@ -206,6 +206,18 @@ body{
     font-weight: 600;
     font-size: 50px;
 }
-.features-para{
-    
+.features-para h1{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: rgba(25, 26, 21, 1);
+}
+.features-para p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(166, 166, 166, 1);
+}
+.button-right-side{
+    text-align: right;
 }
