@@ -125,6 +125,10 @@ body{
     color: #A6A6A6;
 }
 /* rating and contant area style */
+.gap{
+    padding: 60px;
+    column-gap: 10px;
+}
 .contant h1{
     color: #191A15;
     font-size: 44px;
@@ -168,5 +172,30 @@ body{
     color: rgba(166, 166, 166, 1);
 }
 .logo-contant{
-    display: flex
+    display: flex;
+    margin-top: 20px;
+}
+.logo{
+    width: 60px;
+    margin-right: 20px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+.logo-heading h2{
+    font-size: 28px;
+    line-height: 33px;
+    font-weight: 700;
+    color: rgba(25, 26, 21, 1);
+}
+.logo-heading p{
+    color: rgba(166, 166, 166, 1);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
 }
