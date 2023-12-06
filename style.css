@@ -199,3 +199,13 @@ body{
     line-height: 30px;
     font-weight: 500;
 }
+/* Features cab style */
+.features-heading h1{
+    color: rgba(25, 26, 21, 1);   
+    line-height: 60px;
+    font-weight: 600;
+    font-size: 50px;
+}
+.features-para{
+    
+}
