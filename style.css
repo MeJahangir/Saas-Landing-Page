@@ -222,3 +222,25 @@ body{
     text-align: right;
     margin: auto;
 }
+/* features area style */
+.img-con-pra{
+    margin-top: 50px;
+}
+.image img{
+    width: 355px;
+    height: 430px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.img-con-pra h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    color:rgba(25, 26, 21, 1);
+}
+.img-con-pra p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(166, 166, 166, 1);
+}
