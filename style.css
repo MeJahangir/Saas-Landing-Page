@@ -5,7 +5,8 @@
 body{
     background-image: url(images/Group\ 1939.png);
     background-repeat: no-repeat;
-}
+    background-size: cover;
+}   
 
 /* Heading caption */
 .caption h1{
@@ -129,7 +130,7 @@ body{
 }
 /* rating and contant area style */
 .gap{
-    padding: 60px;
+    padding: 60px 60px 20px 60px;
     column-gap: 10px;
 }
 .contant h1{
@@ -201,6 +202,9 @@ body{
     font-weight: 500;
 }
 /* Features cab style */
+.features-area{
+    padding: 40px 68px 18px 16px;
+}
 .features-heading h1{
     color: rgba(25, 26, 21, 1);   
     line-height: 60px;
