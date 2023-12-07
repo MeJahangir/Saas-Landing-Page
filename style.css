@@ -249,3 +249,7 @@ body{
     line-height: 30px;
     color: rgba(166, 166, 166, 1);
 }
+/* icone and contant add */
+.icon-contant{
+    display: flex;
+}
