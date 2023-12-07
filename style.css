@@ -250,6 +250,24 @@ body{
     color: rgba(166, 166, 166, 1);
 }
 /* icone and contant add */
+.benifit-area h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0px 150px 25px 0px;
+    color: rgba(25, 26, 21, 1);
+}
 .icon-contant{
     display: flex;
+    column-gap: 30px;
+}
+.checkbox{
+    font-size: 32px;
+    color: rgba(84, 189, 149, 1);
+}
+.icon-contant p{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(25, 26, 21, 1);
+    line-height: 30px;
 }
