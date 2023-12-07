@@ -116,12 +116,15 @@ body{
     color: rgba(25, 26, 21, 1);
 }
 .flex-area {
-    display: flex;
-    margin: 70px 0px;
+    /* margin: 70px 0px; */
+}
+.products{
+    text-align: center;
 }
 .products img{
     width: 145px;
     height: 36px;
+    margin: 37px;
     color: #A6A6A6;
 }
 /* rating and contant area style */
@@ -143,10 +146,8 @@ body{
     line-height: 30px;
 }
 .rating{
-    display: flex;
-}
-.star{
     margin-top: 50px;
+    display: flex;
 }
 .star img{
     width: 26px;
