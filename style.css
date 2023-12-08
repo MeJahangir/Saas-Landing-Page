@@ -250,6 +250,10 @@ body{
     color: rgba(166, 166, 166, 1);
 }
 /* icone and contant add */
+.benifit{
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
 .benifit-area h1{
     font-size: 50px;
     font-weight: 700;
