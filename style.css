@@ -305,3 +305,33 @@ body{
     display: block;
     margin: 348px 0px 0px -110px;
 }
+
+
+
+.btn-width{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 340px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+.monthly{
+    width: 160px;
+    height: 56px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+}
+.monthly:hover{
+    background-color: rgb(75, 14, 14);
+    transition: 2s ease;
+}
+.yearly{
+    border: none;
+    width: 160px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: rgba(84, 189, 149, 1);
+}
