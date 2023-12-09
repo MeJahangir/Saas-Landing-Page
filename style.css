@@ -445,6 +445,23 @@ body{
     color: rgba(255, 255, 255, 1);
     padding: 0px 32px 0px;
 }
+.pro-dollar{
+    margin-right: 75px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1)
+}
+.pro-price{
+    color: red;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin: -15px 0px 30px 0px;
+    color: rgba(255, 255, 255, 1)
+}
 .pro-btn{
     text-align: center;
     margin-bottom: 25px;
