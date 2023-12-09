@@ -348,3 +348,58 @@ body{
     border-radius: 10px;
     background-color: rgba(84, 189, 149, 1);
 }
+.test{
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 13px 0px ;
+    background-color:rgba(255, 255, 255, 1);
+    border-radius: 15PX;
+    padding: 30px 20px 25px 20px;
+}
+.test h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px; 
+    text-align: center;
+}
+.test p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0px 20px 0px;
+}
+
+/* plan area style */
+.plan{
+    padding: 30px;
+    background-color: rgba(249, 250, 251, 1);
+    border-radius: 15px;
+}
+.free-plan{
+    display: flex;
+    column-gap: 8px;
+}
+.checkbox-2{
+    width: 26px;
+    height: 26px;
+    color: rgba(109, 209, 48, 1);
+}
+.free-plan h6{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(25, 26, 21, 1);
+}
+
+.free-btn{
+    width: 230px;
+    height: 60px;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    color: rgba(84, 189, 149, 1);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
