@@ -116,9 +116,6 @@ body{
     line-height: 48px;
     color: rgba(25, 26, 21, 1);
 }
-.flex-area {
-    /* margin: 70px 0px; */
-}
 .products{
     text-align: center;
 }
@@ -305,28 +302,44 @@ body{
     display: block;
     margin: 348px 0px 0px -110px;
 }
-
-
-
-.btn-width{
-    align-items: center;
+/* choose plan  style*/
+.choose-plam{
+    margin-top: 100px;
+}
+.choose-plam h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 73px;
     text-align: center;
-    display: flex;
+    color: rgba(25, 26, 21, 1);
+
+
+}
+.choose-plam p{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(166, 166, 166, 1);
+}
+.btn-width{
+    margin: auto;
     width: 340px;
     height: 70px;
-    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    align-items: center;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
 }
 .monthly{
     width: 160px;
     height: 56px;
-    border-radius: 10px;
     border: none;
+    border-radius: 10px;
     background-color: rgba(255, 255, 255, 1);
-}
-.monthly:hover{
-    background-color: rgb(75, 14, 14);
-    transition: 2s ease;
 }
 .yearly{
     border: none;
