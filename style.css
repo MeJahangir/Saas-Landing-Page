@@ -410,7 +410,7 @@ body{
     line-height: 30px;
     color: rgba(25, 26, 21, 1);
 }
-
+/* free and pro future style */
 .free-btn{
     width: 230px;
     height: 60px;
@@ -479,5 +479,10 @@ body{
     border-radius: 10px;   
     border: none; 
     background-color: rgba(133, 218, 185, 1);
-
+}
+/* footer area style */
+#footer{
+    display: block;
+    overflow: hidden;
+    background-color: black;
 }
