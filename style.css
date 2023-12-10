@@ -7,7 +7,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }   
-
 /* Heading caption */
 .caption h1{
     font-size: 50px;
@@ -51,9 +50,11 @@ body{
         background-color: rgb(0, 102, 63);
 
 }
-/* Increase area style  */
+/*increase area style  */
+
 .increase-area{
     margin-top: 100px;
+    display: flex;
 }
 .inc-heading h2{
     font-size: 80px;
@@ -79,11 +80,13 @@ body{
     height: 558.99px;
     /* some isue image width */
 }
+.play{
+    margin-right: 150px;
+}
 .play-wiew{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
-    text-align: center;
 }
 .trail-btn{
     border: none;
