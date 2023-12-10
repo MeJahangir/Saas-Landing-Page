@@ -494,12 +494,17 @@ body{
 }
 .footer-para{
     font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-weight: 500;
     line-height: 30px;
     color: rgba(166, 166, 166, 1);
 }
-.f-img{
-   
+.man-img{
+    padding: 0px 100px 25px 0px;
+}
+.Biccas{
+    margin-top: 100px;
 }
 .caption-2{
     font-size: 50px;
@@ -511,6 +516,11 @@ body{
 .images{
     display: flex;
 }
+.images img{
+    width: 66px;
+    height: 66px;
+    float: left;
+}
 .play-btn{
     width: 66px;
     height: 66px;
@@ -521,4 +531,28 @@ body{
     text-align: center;
     align-items: center;
     margin: 20px 25px;
+} 
+.email{
+    display: flex;
+    /* padding-right: 30px; */
+    border: 1px solid white;
+}
+.Email-con p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(166, 166, 166, 1);
+    margin: auto;
+    padding: 10px;
+}
+.email-icon{
+    width: 46px;
+    height: 46px;
+    background-color: green;
+}
+.email-icon i{
+    color: rgba(166, 166, 166, 1);;
+    float: right;
+    width: 46px;
+    height: 46px;
 }
