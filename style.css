@@ -534,25 +534,29 @@ body{
 } 
 .email{
     display: flex;
-    /* padding-right: 30px; */
+    padding: 05px;
     border: 1px solid white;
+    border-radius: 30px;
 }
-.Email-con p{
+.email-con p{
     font-size: 18px;
     font-weight: 500;
-    line-height: 30px;
     color: rgba(166, 166, 166, 1);
     margin: auto;
     padding: 10px;
+    float: left;
 }
-.email-icon{
+.icons{
     width: 46px;
+    float: right;
     height: 46px;
+    border-radius: 50px;
     background-color: green;
 }
-.email-icon i{
-    color: rgba(166, 166, 166, 1);;
+.icons img{
+    width: 24px;
+    height: 24px;
     float: right;
-    width: 46px;
-    height: 46px;
+    margin: 10px 10px 10px 10px;
+   
 }
