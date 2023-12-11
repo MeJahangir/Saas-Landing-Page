@@ -698,10 +698,10 @@ textarea{
 }
 .conditon{
     float: right;
-    margin-top: 10px;
-    color: rgba(255, 255, 255, 1);
     font-size: 18px;
+    margin-top: 10px;
     font-weight: 500;
     line-height: 30px;
     font-family: 'Inter';
+    color: rgba(255, 255, 255, 1);
 }
