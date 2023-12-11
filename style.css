@@ -85,7 +85,7 @@ body{
     /* some isue image width */
 }
 .play{
-    margin-right: 150px;
+    margin-right: 125px;
 }
 .play-view{
     display: flex;
@@ -557,7 +557,7 @@ body{
     color: rgba(166, 166, 166, 1);
 }
 .man-img{
-    padding: 0px 100px 25px 0px;
+    padding: 0px 75px 25px 0px;
 }
 .Biccas{
     margin-top: 100px;
@@ -592,7 +592,7 @@ body{
 .email{
     display: flex;
     padding: 05px;
-    width: 500px;
+    width: 400px;
     border: 1px solid white;
     border-radius: 30px;
 }
@@ -621,7 +621,7 @@ body{
 .from-con{
     border-radius: 10px;
     background-color: rgba(34, 41, 56, 1);
-    padding: 20px 40px 30px 40px;
+    padding: 20px 40px 70px 40px;
 }
 .from-con img{
     width: 72px;
@@ -638,31 +638,70 @@ body{
     font-family: 'Inter';
     color: rgba(255, 255, 255, 1);
 }
-label {
-    display: inline-block;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 21px;
+ label {
+     font-size: 18px;
+     font-weight: 500;
+     margin: 10px 0px;
+     line-height: 21px;
+     display: inline-block;
     color: rgba(255, 255, 255, 1);
-    margin: 10px 0px;
 }
 input{
     width: 440px;
     height: 50px;
-    border-radius: 10px;
     border: none;
+    border-radius: 10px;
 }
 textarea{
     width: 440px;
     height: 80px;
-    border-radius: 10px;
     border: none;   
+    border-radius: 10px;
 }
-button{
+.from-btn{
     width: 440px;
     height: 60px;
     border: none;
-    border-radius: 10px;
     margin-top: 20px;
+    border-radius: 10px;
     background-color: rgba(84, 189, 149, 1);
+}
+.free-trial{
+    float: right;
+    font-size: 14px;
+    margin: 10px 55px 0px 0px;
+}
+.free-trial span{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    font-family: 'Inter';
+    color: rgba(255, 255, 255, 1);
+}
+.help-care {
+    margin-top: 120px;
+}
+.care {
+    font-size: 18px;    
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 21.78px;
+    font-family: 'Inter';
+    color: rgba(255, 255, 255, 1);
+}
+.services{
+   font-size: 18px; 
+   font-weight: 500;
+   line-height: 21.78px;
+   font-family: 'Inter';
+   color: rgba(166, 166, 166, 1);
+}
+.conditon{
+    float: right;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Inter';
 }
