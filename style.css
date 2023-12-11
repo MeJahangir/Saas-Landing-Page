@@ -13,54 +13,56 @@ body{
     font-weight: 600;
     margin-top: 10px;
     line-height: 30px;
+    /* font-family: 'Inter'; */
     color: rgba(84, 189, 149, 1);
 }
 /* Menu Items style */
 .menu a{
     font-size: 18px;
     font-weight: 500;
+    margin-left: 22px;
+    font-family: 'Inter';
     line-height: 21.78px;
     color: rgba(0, 0, 0, 1);
-    margin-left: 22px;
 }
 /* Button area style */
 .login a{
+    margin: auto;
     font-size: 16px;
     font-weight: 500;
+    color: #A6A6A6;
+    font-family: 'Inter';
     line-height: 19.36px;
     text-decoration: none;
-    color: #A6A6A6;
-    margin: auto;
 }
 .signup{
     background-color: rgba(84, 189, 149, 1);
 }
 .signup a{
-    color: #F8F8FA; 
-    border-radius: 10px;
-    text-decoration: none;
-    /* padding: 5px 5px; */
+    margin: auto;
+    display: block;
     font-size: 16px;
     font-weight: 500;
+    color: #F8F8FA; 
+    border-radius: 10px;
+    font-family: 'Inter';
     line-height: 19.36px;
-    display: block;
-    margin: auto;
+    text-decoration: none;
 }
 .signup:hover{
-        background-color: rgb(0, 102, 63);
+    background-color: rgb(0, 102, 63);
 
 }
 /*increase area style  */
-
-.increase{
+.increase-area{
     margin-top: 100px;
     display: flex;
 }
 .inc-heading h2{
-    font-family: inter, sans-serif;
     font-size: 80px;
     font-weight: 700;
     line-height: 90px;
+    font-family: 'Inter';
     color: rgba(25, 26, 21, 1);
 }
 .border-img{
@@ -71,9 +73,10 @@ body{
 .inc-heading P{
     width: 461px;
     font-size: 18px;
-    margin-top: 50px;
     font-weight: 500;
+    margin-top: 50px;
     line-height: 30px;
+    font-family: 'Inter';
     color: rgba(0, 0, 0, 1  );
 }
 .inc-img img{
@@ -96,6 +99,7 @@ body{
     font-size: 18px;
     font-weight: 500;
     border-radius: 40px;
+    font-family: 'Inter';
     background-color: #54BD95;
     color: rgba(255, 255, 255, 1);
 }
@@ -109,15 +113,17 @@ body{
     font-size: 18px;
     font-weight: 500;
     line-height: 21px;
+    font-family: 'Inter';
     justify-content: center;
     color: rgba(25, 26, 21, 1);
 }
 /* Collabs area add */
 .collapse-heading h1{
-    text-align: center;
-    font-weight: 700;
     font-size: 40px;
+    font-weight: 700;
     line-height: 48px;
+    text-align: center;
+    font-family: 'Inter';
     color: rgba(25, 26, 21, 1);
 }
 .products{
@@ -135,17 +141,19 @@ body{
     column-gap: 10px;
 }
 .contant h1{
-    color: #191A15;
     font-size: 44px;
     font-weight: 700;
+    color: #191A15;     
+    font-family: 'Inter';
 }
 .contant p{
-    margin-top: 25px;
-    margin-bottom: 1rem;
     font-size: 16px;
     font-weight: 500;
-    color: rgba(166, 166, 166, 1);
+    margin-top: 25px;
     line-height: 30px;
+    margin-bottom: 1rem;
+    font-family: 'Inter';
+    color: rgba(166, 166, 166, 1);
 }
 .rating{
     margin-top: 50px;
@@ -161,17 +169,20 @@ body{
     font-weight: 700;
     line-height: 21px;
     margin-bottom: 20px;
+    font-family: 'Inter';
     color: rgba(25, 26, 21, 1);
 }
 .rating-number span{
     font-size: 18px;
     font-weight: 500;
     line-height: 21px;
+    font-family: 'Inter';
     color: rgba(25, 26, 21, 1);
 }
 .rating-number h5{
     font-size: 18px;
     font-weight: 700;
+    font-family: 'Inter';
     color: rgba(166, 166, 166, 1);
 }
 .logo-contant{
@@ -192,36 +203,41 @@ body{
 }
 .logo-heading h2{
     font-size: 28px;
-    line-height: 33px;
     font-weight: 700;
+    line-height: 33px;
+    font-family: 'Inter';
     color: rgba(25, 26, 21, 1);
 }
 .logo-heading p{
-    color: rgba(166, 166, 166, 1);
     font-size: 18px;
-    line-height: 30px;
     font-weight: 500;
+    line-height: 30px;
+    font-family: 'Inter';
+    color: rgba(166, 166, 166, 1);
 }
 /* Features cab style */
 .features-area{
     padding: 40px 68px 18px 16px;
 }
 .features-heading h1{
-    color: rgba(25, 26, 21, 1);   
-    line-height: 60px;
-    font-weight: 600;
     font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    font-family: 'Inter';
+    color: rgba(25, 26, 21, 1);   
 }
 .features-para h1{
     font-size: 50px;
-    line-height: 60px;
     font-weight: 600;
+    line-height: 60px;
+    font-family: 'Inter';
     color: rgba(25, 26, 21, 1);
 }
 .features-para p{
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
+    font-family: 'Inter';
     color: rgba(166, 166, 166, 1);
 }
 .button-right-side{
@@ -242,12 +258,14 @@ body{
     font-size: 30px;
     font-weight: 600;
     line-height: 30px;
+    font-family: 'Inter';
     color:rgba(25, 26, 21, 1);
 }
 .img-con-pra p{
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
+    font-family: 'Inter';
     color: rgba(166, 166, 166, 1);
 }
 /* icone and contant add */
@@ -259,6 +277,7 @@ body{
     font-size: 50px;
     font-weight: 700;
     line-height: 60px;
+    font-family: 'Inter';
     padding: 0px 150px 25px 0px;
     color: rgba(25, 26, 21, 1);
 }
@@ -275,6 +294,7 @@ body{
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
+    font-family: 'Inter';
     color: rgba(25, 26, 21, 1);
 }
 .bg-img{
@@ -315,6 +335,7 @@ body{
     font-weight: 700;
     line-height: 73px;
     text-align: center;
+    font-family: 'Inter';
     color: rgba(25, 26, 21, 1);
 
 
@@ -325,6 +346,7 @@ body{
     font-weight: 700;
     line-height: 21px;
     text-align: center;
+    font-family: 'Inter';
     color: rgba(166, 166, 166, 1);
 }
 .btn-width{
@@ -343,6 +365,7 @@ body{
     height: 56px;
     border: none;
     border-radius: 10px;
+    font-family: 'Inter';
     background-color: rgba(255, 255, 255, 1);
 }
 .yearly{
@@ -350,6 +373,7 @@ body{
     width: 160px;
     height: 56px;
     border-radius: 10px;
+    font-family: 'Inter';
     background-color: rgba(84, 189, 149, 1);
 }
 .plan-con{
@@ -364,6 +388,7 @@ body{
     font-weight: 600;
     line-height: 36px; 
     text-align: center;
+    font-family: 'Inter';
     color: rgba(25, 26, 21, 1);
 }
 .plan-con p{
@@ -371,15 +396,17 @@ body{
     font-weight: 500;
     line-height: 27px;
     text-align: center;
+    font-family: 'Inter';
     padding: 0px 32px 0px;
     color: rgba(166, 166, 166, 1);
 }
 .dollar{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
     margin-right: 75px;
     text-align: center;
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 500;
+    font-family: 'Inter';
     color: rgba(166, 166, 166, 1);
 }
 .price{
@@ -388,6 +415,7 @@ body{
     font-weight: 600;
     line-height: 30px;
     text-align: center;
+    font-family: 'Inter';
     margin: -15px 0px 30px 0px;
     color: rgba(25, 26, 21, 1);
 }
@@ -412,9 +440,13 @@ body{
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
+    font-family: 'Inter';
     color: rgba(25, 26, 21, 1);
 }
 /* free and pro future style */
+.plan-button {
+    text-align: center;
+}
 .free-btn{
     width: 230px;
     height: 60px;
@@ -426,6 +458,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     line-height: 30px;
+    font-family: 'Inter';
 }
 .pro{
     margin-top: -20px;
@@ -439,22 +472,25 @@ body{
     font-weight: 600;
     line-height: 36px; 
     text-align: center; 
+    font-family: 'Inter';
     color: rgba(255, 255, 255, 1);
 }
 .pro p{
     font-size: 18px;
-    line-height: 27px;
     font-weight: 500;
     text-align: center;
-    color: rgba(255, 255, 255, 1);
+    line-height: 27px;
+    font-family: 'Inter';
     padding: 0px 32px 0px;
+    color: rgba(255, 255, 255, 1);
 }
 .pro-dollar{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
     margin-right: 75px;
     text-align: center;
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 500;
+    font-family: 'Inter';
     color: rgba(255, 255, 255, 1)
 }
 .pro-price{
@@ -463,26 +499,40 @@ body{
     font-weight: 600;
     line-height: 30px;
     text-align: center;
+    font-family: 'Inter';
     margin: -15px 0px 30px 0px;
     color: rgba(255, 255, 255, 1)
 }
-.pro-btn{
+.pro-save-btn{
     text-align: center;
     margin-bottom: 25px;
 }
-.pro-btn button {
-    align-items: center;
-    text-align: center;
+.pro-save-btn button {
+    border: none; 
+    width: 130px;
+    height: 40px;
     margin: auto;
-    color: rgba(255, 255, 255, 1);
     font-size: 14px;
     font-weight: 600;
     line-height: 30px;
-    width: 130px;
-    height: 40px;
+    text-align: center;
+    align-items: center;
     border-radius: 10px;   
-    border: none; 
+    color: rgba(255, 255, 255, 1);
     background-color: rgba(133, 218, 185, 1);
+}
+.pro-btn{
+    width: 230px;
+    height: 60px;
+    border: none;
+    background-color: rgba(84, 189, 149, 1);
+    border-radius: 20px;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: 'Inter';
 }
 /* footer area style */
 .footer{
@@ -495,13 +545,15 @@ body{
     font-weight: 600;
     line-height: 60px;
     padding-right: 80px;
+    font-family: 'Inter';
 }
 .footer-para{
     font-size: 18px;
     margin-top: 30px;
-    margin-bottom: 30px;
     font-weight: 500;
     line-height: 30px;
+    margin-bottom: 30px;
+    font-family: 'Inter';
     color: rgba(166, 166, 166, 1);
 }
 .man-img{
@@ -515,6 +567,7 @@ body{
     font-weight: 600;
     margin-top: 10px;
     line-height: 30px;
+    font-family: 'Inter';
     color: rgba(84, 189, 149, 1);
 }
 .images{
@@ -539,6 +592,7 @@ body{
 .email{
     display: flex;
     padding: 05px;
+    width: 500px;
     border: 1px solid white;
     border-radius: 30px;
 }
@@ -549,6 +603,7 @@ body{
     margin: auto;
     padding: 10px;
     float: left;
+    font-family: 'Inter';
 }
 .icons{
     width: 46px;
