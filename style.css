@@ -8,25 +8,34 @@ body{
     background-size: cover;
 }   
 /* Heading caption */
-.caption h1{
+.caption{
     font-size: 50px;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 25px;
     line-height: 30px;
-    /* font-family: 'Inter'; */
+    font-family: 'Inter';
     color: rgba(84, 189, 149, 1);
 }
+.nav-margin{
+    margin: auto;
+}
 /* Menu Items style */
+.menu{
+    padding: 0px 20px;
+}
 .menu a{
     font-size: 18px;
     font-weight: 500;
-    margin-left: 22px;
     font-family: 'Inter';
     line-height: 21.78px;
     color: rgba(0, 0, 0, 1);
 }
+.menu a:hover{
+    color: green;
+}
+
 /* Button area style */
-.login a{
+.login{
     margin: auto;
     font-size: 16px;
     font-weight: 500;
@@ -35,23 +44,25 @@ body{
     line-height: 19.36px;
     text-decoration: none;
 }
-.signup{
-    background-color: rgba(84, 189, 149, 1);
+.login:hover{
+    background-color: #007CF5;
+    font-size: 16px;
+    font-weight: 500;
+    color: #A6A6A6;
+    font-family: 'Inter';
 }
-.signup a{
+.signup {
     margin: auto;
-    display: block;
     font-size: 16px;
     font-weight: 500;
     color: #F8F8FA; 
     border-radius: 10px;
     font-family: 'Inter';
     line-height: 19.36px;
-    text-decoration: none;
+    background-color: rgb(0, 102, 63);
 }
 .signup:hover{
-    background-color: rgb(0, 102, 63);
-
+    color: rgb(209, 132, 132);
 }
 /*increase area style  */
 .increase-area{
@@ -704,4 +715,70 @@ textarea{
     line-height: 30px;
     font-family: 'Inter';
     color: rgba(255, 255, 255, 1);
+}
+
+/* responsive area */
+/* Max width 576px for small */
+@media screen and (max-width: 420px){
+    .menu{
+    padding: 0px;
+    }
+    .btn-icon{
+    margin-top: 30px;
+    }
+   .inc-heading{
+    width: 100%;
+   }
+   .increase-area{
+    margin-top: 15px;
+   }
+   .inc-heading h2{
+    font-size: 50px;
+    font-family: 'Inter';
+    line-height: 60px;
+   }
+   .border-img{
+    width: 350px;
+   }
+   .inc-heading p{
+    width: 100%;
+    text-align: center;
+   }
+   .play-view{
+    width: 100%;
+    display: block;
+    text-align: center;
+   }
+   .play{
+    margin: auto;
+    margin-top: 10px;
+   }
+   .inc-img img{
+    width: 408px;
+    height: auto;
+    margin-top: 36px;
+}
+}
+/* min 576 to max 768 for medium */
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .menu{
+        padding: 0px;
+    }
+    .btn-icon{
+        margin-top: 30px;
+    }
+}
+/* min 768 to 992 or large */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .menu{
+        padding: 0px;
+    }
+    .btn-icon{
+        margin-top: 30px;
+    }
+    
+}
+/* min 922 to 1200 for extra large */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    
 }
