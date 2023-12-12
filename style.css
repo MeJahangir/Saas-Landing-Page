@@ -720,6 +720,9 @@ textarea{
 /* responsive area */
 /* Max width 576px for small */
 @media screen and (max-width: 420px){
+    body{
+        background-image: none;
+    }
     .menu{
     padding: 0px;
     }
@@ -796,6 +799,30 @@ textarea{
     .logo{
     margin: auto;
     margin-bottom: 20px;
+    }
+    .features-area{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 0px;
+    }
+    .features-heading h1{
+    font-size: 48px;
+    margin-top: 20px;
+    text-align: center;
+    }
+    .features-para p{
+    margin-top: 25px;
+    text-align: center;  
+    }
+    .button-right-side{
+    text-align: center;
+    }
+    .image{
+    text-align: center;
+    }
+    .img-con-pra h3, p{
+    text-align: center;
     }
 }
 /* min 576 to max 768 for medium */
