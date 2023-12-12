@@ -736,9 +736,11 @@ textarea{
     font-size: 50px;
     font-family: 'Inter';
     line-height: 60px;
+    text-align: center;
    }
    .border-img{
     width: 350px;
+    margin-left: 22px;
    }
    .inc-heading p{
     width: 100%;
@@ -757,7 +759,18 @@ textarea{
     width: 408px;
     height: auto;
     margin-top: 36px;
-}
+    }
+    .collapse-heading h1{
+    font-size: 32px;
+    font-family: 'Inter';
+    color: green;
+    font-weight: 700;
+    }
+    .products img{
+    width: 300px; 
+    padding: 0px;
+    margin: 45px 0px 20px 0px;
+    }
 }
 /* min 576 to max 768 for medium */
 @media screen and (min-width: 576px) and (max-width: 768px){
