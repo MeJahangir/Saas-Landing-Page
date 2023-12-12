@@ -786,7 +786,16 @@ textarea{
     display: block;
     }
     .star{
-        margin-bottom: 30px;
+    margin-bottom: 30px;
+    }
+    .logo-contant{
+    width: 100%;
+    display: block;
+    text-align: center;
+    }
+    .logo{
+    margin: auto;
+    margin-bottom: 20px;
     }
 }
 /* min 576 to max 768 for medium */
