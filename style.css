@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url(images/Group\ 1939.png);
+    background-image: url(images/Background-img.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }   
@@ -823,6 +823,13 @@ textarea{
     }
     .img-con-pra h3, p{
     text-align: center;
+    }
+    .benifit-area{
+    width: 100%;
+    display: block;
+    }
+    .benifit-area h1{
+        text-align: center;
     }
 }
 /* min 576 to max 768 for medium */
