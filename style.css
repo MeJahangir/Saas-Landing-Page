@@ -853,6 +853,13 @@ textarea{
     .menu{
         padding: 0px;
     }
+    .inc-heading{
+        width: 100%;
+        display: flex;
+    }
+    .inc-img{
+        width: 100%;
+    }
     .btn-icon{
         margin-top: 30px;
     }
