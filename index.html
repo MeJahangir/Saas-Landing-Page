@@ -5,70 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Saas Landing Page</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <!-- Bootstrap link add -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- bootstrap link add -->
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <!-- Css link add -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>  
-  <section class="navbar">
-    <nav class="navbar navbar-expand-lg nav-alignment">
-      <div class="container">
-        <div class="captions">
-          <img src="images/Biccas.svg" alt="Biccas">
+    <!-- <section class="navbar">
+      <nav class="navbar navbar-expand-lg nav-alignment">
+        <div class="container">
+          <div class="captions">
+            <img src="images/Biccas.svg" alt="Biccas">
+          </div>
+          <button class="navbar-toggler btn-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse show" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-margin">
+              <li class="nav-item menu">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item menu">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item menu">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item menu">
+                <a class="nav-link disabled" aria-disabled="true">Blog</a>
+              </li>
+              <li class="nav-item menu">
+                <a class="nav-link disabled" aria-disabled="true">About Us</a>
+              </li>
+            </ul>
+            <div class="buttons">
+              <button class="btn login" type="submit">Login</button>
+              <button class="btn btn-outline-success signup" type="submit">Sign Up</button>
+            </div>
+          </div>
         </div>
-        <button class="navbar-toggler btn-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse show" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-margin">
-            <li class="nav-item menu">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item menu">
-              <a class="nav-link" href="#">Product</a>
-            </li>
-            <li class="nav-item menu">
-              <a class="nav-link" href="#">FAQ</a>
-            </li>
-            <li class="nav-item menu">
-              <a class="nav-link disabled" aria-disabled="true">Blog</a>
-            </li>
-            <li class="nav-item menu">
-              <a class="nav-link disabled" aria-disabled="true">About Us</a>
-            </li>
-          </ul>
-          <div class="buttons">
-            <button class="btn login" type="submit">Login</button>
-            <button class="btn btn-outline-success signup" type="submit">Sign Up</button>
+      </nav>
+    </section> -->
+  <!-- Increase area add -->
+    <section class="container">
+      <div class="row ">
+        <div class="col">
+          <h2>We’re here to Increase your Productivity</h2>
+          <div class="border-img">
+            <img src="images/Vector 32.svg" alt="Vector">
+          </div>
+          <p>Let's make your work more organize and easily using the Taskio Dashboard with many of the latest featuresin managing work every day.</p>
+          <div class="row">
+            <div class="col">
+              <button>Try free trail</button>
+            </div>
+            <div class="col">
+              <div class="play-img">
+                <img src="images/play-btn.svg" alt="play and wiew button">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="image-right">
+            <img src="images/images-1.svg" alt="right side image">
           </div>
         </div>
       </div>
-    </nav>
-  </section>
-  <!-- Increase area add -->
-  <section class="container">
-      <div class="row increase-area">
-        <div class="col-6 inc-heading"> 
-            <h2>We’re here to Increase your Productivity</h2>
-            <img src="images/Vector 32.svg" alt="round border">
-            <p>Let's make your work more organize and easily using the Taskio Dashboard with many of the latest featuresin managing work every day.</p>
-              <div class="row play-view">
-                <div class="col">
-                  <button class="trail-btn">Try free trail</button>
-                </div>
-                <div class="col play">
-                  <img src="images/play-btn.svg" alt="play and wiew button">
-                </div> 
-              </div>
-          </div>
-          <!-- right side image -->
-        <div class="col-6 inc-img">
-            <img src="images/images-1.svg" alt="increase image">
-        </div>
-    </div>
-  </section>
+    </section>
+
+
+
   <section class="container">
     <div class="row mt-5 collapse-heading">
       <h1>More than 25,000 teams use Collabs</h1>
@@ -115,7 +122,6 @@
             </div>
           </div>
         </div>
-        
       </div>
       <!-- support contant right side -->
       <div class="col">
@@ -128,7 +134,7 @@
             <p>Plan, collaborate, and publishing your contetn that drivees meaningful engagement and growth for your barnd</p>
           </div>
         </div>
-        <div class=" col logo-contant">
+        <div class="col logo-contant">
           <div class="logo">
             <img src="images/pie-chart 1.svg" alt="pie-chart">
           </div>
@@ -137,7 +143,7 @@
             <p>Analyze your performance and create goegeous report</p>
           </div>
         </div>
-        <div class=" col logo-contant">
+        <div class="col logo-contant">
           <div class="logo">
             <img src="images/command 1.svg" alt="command">
           </div>
@@ -150,7 +156,7 @@
     </div>
   </section>
   <!-- Our features you cab get add -->
-  <section class="container d-none">
+  <section class="container">
     <div class="row features-area">
       <div class="col features-heading">
         <h1>Our Features you cab get</h1>
@@ -189,7 +195,7 @@
     </div>
   </section>
 <!-- check box icon add -->
-  <section class="container d-none">
+  <section class="container">
     <div class="row benifit">
       <div class="col benifit-area ">
         <h1>What Benifit Will You Get</h1>
@@ -235,7 +241,7 @@
     </div>
   </section>
   <!-- Choose Plan That’s Right For You -->
-  <section class="container d-none">
+  <section class="container">
     <div class="row choose-plam">
       <h1>Choose Plan <br> That’s Right For You</h1>
       <p>Choose plan that works best for you, feel free to contact us</p>
@@ -357,7 +363,7 @@
     </div>
   </section>
   <!-- footer area add -->
-  <section class="footer d-none">
+  <section class="footer">
     <div class="container mt-5">
       <div class="row" style="padding: 50px 0px 10px 0px">
         <div class="col footer-area">
@@ -443,6 +449,5 @@
       </div>
     </div>
   </section>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

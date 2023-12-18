@@ -7,6 +7,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 } 
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+
 .navbar{
     width: 1180px;
     margin: auto;
@@ -86,6 +93,7 @@ body{
     display: flex;
 }
 .inc-heading h2{
+    width: 533px;
     font-size: 80px;
     font-weight: 700;
     line-height: 90px;
@@ -94,7 +102,7 @@ body{
 }
 .inc-heading img{
     width: 479px;
-    height: 26px;
+    height: auto;
     margin-top: 30px;
 }
 .inc-heading P{
@@ -106,13 +114,16 @@ body{
     font-family: 'Inter';
     color: rgba(0, 0, 0, 1  );
 }
-.inc-img img{
+.right-image{
+    /* margin-left: 10px; */
+}
+.right-image img{
     width: 610.68px;
     height: 558.99px;
     /* some isue image width */
 }
 .play{
-    margin-right: 125px;
+    /* margin-right: 125px; */
 }
 .play-view{
     display: flex;
@@ -767,9 +778,7 @@ textarea{
     padding: 0px 20px;
    }
    .play-view{
-    width: 100%;
-    display: block;
-    text-align: center;
+    margin: auto;
    }
    .play{
     margin: auto;
