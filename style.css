@@ -93,14 +93,13 @@ body{
     display: flex;
 }
 .inc-heading h2{
-    width: 533px;
     font-size: 80px;
     font-weight: 700;
     line-height: 90px;
     font-family: 'Inter';
     color: rgba(25, 26, 21, 1);
 }
-.inc-heading img{
+.inc-image img{
     width: 479px;
     height: auto;
     margin-top: 30px;
@@ -114,16 +113,10 @@ body{
     font-family: 'Inter';
     color: rgba(0, 0, 0, 1  );
 }
-.right-image{
-    /* margin-left: 10px; */
-}
-.right-image img{
-    width: 610.68px;
-    height: 558.99px;
-    /* some isue image width */
-}
-.play{
-    /* margin-right: 125px; */
+.image-right img{
+    width: 660px;
+    float: right;
+    margin-right: -118px;
 }
 .play-view{
     display: flex;
