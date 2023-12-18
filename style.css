@@ -111,6 +111,7 @@ body{
     margin-top: 50px;
     line-height: 30px;
     font-family: 'Inter';
+    margin-bottom: 0px;
     color: rgba(0, 0, 0, 1  );
 }
 .image-right img{
@@ -118,35 +119,39 @@ body{
     float: right;
     margin-right: -118px;
 }
-.play-view{
-    display: flex;
-    flex-direction: row;
+.btn-play{
     margin-top: 50px;
+    margin-right: -300px;
 }
-.trail-btn{
-    border: none;
-    width: 165px;
-    height: 62px;
+.try button{
     font-size: 18px;
     font-weight: 500;
-    border-radius: 40px;
+    line-height: 21.78px;
+    border: none;
     font-family: 'Inter';
+    padding: 20px 30px 20px 30px;
+    border-radius: 40px;
     background-color: #54BD95;
     color: rgba(255, 255, 255, 1);
 }
-.play img{
+button:hover{
+    background-color: rgb(99, 219, 179);
+    transition: 1s ease;
+}
+.play-img{
     width: 152px;
     height: 40px;
-    margin-top: 12px;
+    float: left;
 }
-.view h5{
-    margin: auto;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 21px;
-    font-family: 'Inter';
-    justify-content: center;
-    color: rgba(25, 26, 21, 1);
+
+.right-contant img{
+    width: 440px;
+    height: 414px;
+    float: right;
+}
+.right-contant img:hover{
+    transform: rotate(360deg);
+    transition: 8s ease;
 }
 /* Collabs area add */
 .collapse-heading h1{
