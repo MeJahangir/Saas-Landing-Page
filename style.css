@@ -506,19 +506,30 @@ button:hover{
 /* free and pro future style */
 .plan-button {
     text-align: center;
+    margin-top: 27px;
 }
 .free-btn{
-    width: 230px;
-    height: 60px;
-    border: none;
-    background-color: white;
-    border-radius: 20px;
-    margin-top: 15px;
-    color: rgba(84, 189, 149, 1);
     font-size: 18px;
     font-weight: 600;
     line-height: 30px;
+    border-radius: 20px;
     font-family: 'Inter';
+    text-decoration: none;
+    background-color: white;
+    padding: 17px 65px 17px 65px;
+    color: rgba(84, 189, 149, 1);
+}
+.pro-btn{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    border-radius: 20px;
+    font-family: 'Inter';
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: 
+    rgba(84, 189, 149, 1);
+    padding: 17px 65px 17px 65px;
 }
 .pro{
     margin-top: -22px;
@@ -536,13 +547,17 @@ button:hover{
     color: rgba(255, 255, 255, 1);
 }
 .pro p{
+    margin-top: 10px;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
     line-height: 27px;
     font-family: 'Inter';
-    padding: 0px 32px 0px;
+    padding: 0px 32px;
     color: rgba(255, 255, 255, 1);
+}
+.plan-con p{
+    margin-top: 10px;
 }
 .pro-dollar{
     font-size: 18px;
@@ -754,12 +769,14 @@ input{
     border: none;
     margin-bottom: 20px;
     border-radius: 10px;
+    padding: 17px 0px 17px 20px;
 }
 textarea{
     width: 440px;
     height: 80px;
     border: none;   
     border-radius: 10px;
+    padding: 20px 0px 43px 20px;
 }
 input::placeholder{
     margin-left: 20px;
