@@ -121,14 +121,15 @@ body{
 }
 .btn-play{
     margin-top: 50px;
-    margin-right: -300px;
+    /* margin-right: -300px; */
 }
 .try button{
     font-size: 18px;
     font-weight: 500;
     line-height: 21.78px;
-    border: none;
+    text-decoration: none;
     font-family: 'Inter';
+    border: 1px solid gray;
     padding: 20px 30px 20px 30px;
     border-radius: 40px;
     background-color: #54BD95;
@@ -142,6 +143,7 @@ button:hover{
     width: 152px;
     height: 40px;
     float: left;
+    margin-top: 12px;
 }
 
 .right-contant img{
@@ -149,9 +151,9 @@ button:hover{
     height: 414px;
     float: right;
 }
-.right-contant img:hover{
+.play-img img:hover{
     transform: rotate(360deg);
-    transition: 8s ease;
+    transition: 5s ease;
 }
 /* Collabs area add */
 .collapse-heading h1{
@@ -860,12 +862,8 @@ textarea{
     .menu{
         padding: 0px;
     }
-    .inc-heading{
-        width: 100%;
-        display: flex;
-    }
-    .inc-img{
-        width: 100%;
+    .image-right img{
+        margin: 0px;
     }
     .btn-icon{
         margin-top: 30px;
