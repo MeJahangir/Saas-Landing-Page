@@ -273,7 +273,7 @@ button:hover{
 }
 /* Features cab style */
 .features-area{
-    padding: 40px 68px 18px 16px;
+    margin-top: 130px;
 }
 .features-heading h1{
     font-size: 50px;
@@ -326,8 +326,7 @@ button:hover{
 }
 /* icone and contant add */
 .benifit{
-    margin-bottom: 50px;
-    margin-top: 100px;
+    margin-top: 75px;
 }
 .benifit-area h1{
     font-size: 50px;
