@@ -601,7 +601,8 @@ button:hover{
     background-color: rgba(22, 28, 40, 1)
 }
 .footer-area{
-    margin-right: 50px;
+    /* margin-right: 50px; */
+    /* display: flex; */
 }
 .footer-heading{
     color: rgba(255, 255, 255, 1);
@@ -617,6 +618,7 @@ button:hover{
     margin-top: 20px;
     line-height: 30px;
     font-family: 'Inter';
+    padding-right: 40px;
     color: rgba(166, 166, 166, 1);
 }
 .f-img{
@@ -627,20 +629,29 @@ button:hover{
     font-weight: 500;
     margin-top: 40px;
     line-height: 30px;
+    padding-right: 40px;
     font-family: 'Inter';
     color: rgba(166, 166, 166, 1);
 }
 .footer-para{
     font-size: 18px;
     font-weight: 500;
-    margin-top: 40px;
+    line-height: 30px;
+    font-family: 'Inter';
+    color: rgba(166, 166, 166, 1);
+}
+.footer-para-bottom{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 79px;
     line-height: 30px;
     font-family: 'Inter';
     color: rgba(166, 166, 166, 1);
 }
 .man-img{
-    margin-top: 40px;
     display: flex;
+    margin-top: 40px;
+    padding-right: 115px;
 }
 .images{
     width: 66px;
@@ -682,6 +693,7 @@ button:hover{
     width: 400px;
     border: 1px solid white;
     border-radius: 30px;
+    margin-top: ;
 }
 .email-con p{
     font-size: 18px;
@@ -708,7 +720,9 @@ button:hover{
 .from-con{
     border-radius: 10px;
     background-color: rgba(34, 41, 56, 1);
-    padding: 20px 40px 70px 40px;
+    width: 612px;
+    height: 588px;
+    padding: 40px 86px 66px 86px;
 }
 .from-con img{
     width: 72px;
@@ -726,10 +740,10 @@ button:hover{
     color: rgba(255, 255, 255, 1);
 }
  label {
-     font-size: 18px;
+     font-size: 14px;
      font-weight: 500;
-     margin: 10px 0px;
-     line-height: 21px;
+     margin-bottom: 20px;
+     line-height: 16.94px;
      display: inline-block;
     color: rgba(255, 255, 255, 1);
 }
@@ -737,6 +751,7 @@ input{
     width: 440px;
     height: 50px;
     border: none;
+    margin-bottom: 20px;
     border-radius: 10px;
 }
 textarea{
@@ -744,6 +759,9 @@ textarea{
     height: 80px;
     border: none;   
     border-radius: 10px;
+}
+input::placeholder{
+    margin-left: 20px;
 }
 .from-btn{
     width: 440px;
@@ -756,17 +774,19 @@ textarea{
 .free-trial{
     float: right;
     font-size: 14px;
-    margin: 10px 55px 0px 0px;
+    margin-top: 10px;
+    line-height: 16.94px;
+    color: rgba(166, 166, 166, 1)
 }
 .free-trial span{
+    float: right;
     font-size: 14px;
-    font-weight: 500;
-    line-height: 16px;
-    font-family: 'Inter';
+    margin-left: 5px;
+    line-height: 16.94px;
     color: rgba(255, 255, 255, 1);
 }
 .help-care {
-    margin-top: 130px;
+    margin-top: 170px;
 }
 .care {
     font-size: 18px;    
