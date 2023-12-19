@@ -596,8 +596,12 @@ button:hover{
 /* footer area style */
 .footer{
     margin-top: 130px;
+    padding-top: 130px;
     display: block;
     background-color: rgba(22, 28, 40, 1)
+}
+.footer-area{
+    margin-right: 50px;
 }
 .footer-heading{
     color: rgba(255, 255, 255, 1);
@@ -607,19 +611,43 @@ button:hover{
     padding-right: 80px;
     font-family: 'Inter';
 }
+.footer-para-1{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 30px;
+    font-family: 'Inter';
+    color: rgba(166, 166, 166, 1);
+}
+.f-img{
+    margin-top: 42px;
+}
+.footer-para-2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+    line-height: 30px;
+    font-family: 'Inter';
+    color: rgba(166, 166, 166, 1);
+}
 .footer-para{
     font-size: 18px;
     font-weight: 500;
+    margin-top: 40px;
     line-height: 30px;
-    margin-bottom: 30px;
     font-family: 'Inter';
     color: rgba(166, 166, 166, 1);
 }
 .man-img{
-    padding: 0px 75px 25px 0px;
+    margin-top: 40px;
+    display: flex;
+}
+.images{
+    width: 66px;
+    height: 66px;
 }
 .Biccas{
-    margin-top: 100px;
+    margin-top: 130px;
 }
 .caption-2{
     font-size: 50px;
@@ -738,7 +766,7 @@ textarea{
     color: rgba(255, 255, 255, 1);
 }
 .help-care {
-    margin-top: 120px;
+    margin-top: 130px;
 }
 .care {
     font-size: 18px;    
