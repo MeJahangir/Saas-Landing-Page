@@ -301,6 +301,9 @@ button:hover{
     margin: auto;
 }
 /* features area style */
+.feauture-area-margin{
+    margin-top: 74px;
+}
 .img-con-pra{
     margin-top: 50px;
 }
@@ -326,7 +329,7 @@ button:hover{
 }
 /* icone and contant add */
 .benifit{
-    margin-top: 75px;
+    margin-top: 130px;
 }
 .benifit-area h1{
     font-size: 50px;
@@ -382,22 +385,20 @@ button:hover{
     margin: 348px 0px 0px -110px;
 }
 /* choose plan  style*/
-.choose-plam{
-    margin-top: 100px;
+.choose-plan{
+    margin-top: 130px;
 }
-.choose-plam h1{
+.choose-plan h1{
     font-size: 50px;
     font-weight: 700;
     line-height: 73px;
     text-align: center;
     font-family: 'Inter';
     color: rgba(25, 26, 21, 1);
-
-
 }
-.choose-plam p{
+.choose-plan p{
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 40px;
     font-weight: 700;
     line-height: 21px;
     text-align: center;
@@ -409,8 +410,7 @@ button:hover{
     width: 340px;
     height: 70px;
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 40px;
     align-items: center;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 1);
@@ -430,6 +430,10 @@ button:hover{
     border-radius: 10px;
     font-family: 'Inter';
     background-color: rgba(84, 189, 149, 1);
+}
+.version-mt{
+    margin-top: 67px;
+    /* gap: 19px; */
 }
 .plan-con{
     border-radius: 15PX;
@@ -516,7 +520,7 @@ button:hover{
     font-family: 'Inter';
 }
 .pro{
-    margin-top: -20px;
+    margin-top: -22px;
     box-shadow: 1px 0px 13px 0px white;
     background-color: rgba(84, 189, 149, 1);
     border-radius: 15PX;
@@ -591,6 +595,7 @@ button:hover{
 }
 /* footer area style */
 .footer{
+    margin-top: 130px;
     display: block;
     background-color: rgba(22, 28, 40, 1)
 }
@@ -604,7 +609,6 @@ button:hover{
 }
 .footer-para{
     font-size: 18px;
-    margin-top: 30px;
     font-weight: 500;
     line-height: 30px;
     margin-bottom: 30px;
