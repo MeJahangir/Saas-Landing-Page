@@ -834,137 +834,54 @@ input::placeholder{
 
 /* responsive area */
 /* Max width 576px for small */
-@media screen and (max-width: 420px){
+@media (min-width: 576px) and (max-width: 768px) {
     body{
-        background-image: none;
+        background-image: url(images/Background-img.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
-    .menu{
-    padding: 0px;
-    }
-    .btn-icon{
-    margin-top: 30px;
-    }
-   .inc-heading{
-    width: 100%;
-   }
-   .increase-area{
-    margin-top: 15px;
-   }
-   .inc-heading h2{
-    font-size: 50px;
-    font-family: 'Inter';
-    line-height: 65px;
-    text-align: center;
-   }
-   .border-img{
-    width: 350px;
-    margin-left: 22px;
-   }
-   .inc-heading p{
-    width: 100%;
-    text-align: justify;
-    padding: 0px 20px;
-   }
-   .play-view{
-    margin: auto;
-   }
-   .play{
-    margin: auto;
-    margin-top: 10px;
-   }
-   .inc-img img{
-    width: 408px;
-    height: auto;
-    margin-top: 36px;
-    }
-    .collapse-heading h1{
-    font-size: 32px;
-    font-family: 'Inter';
-    color: green;
-    font-weight: 700;
-    }
-    .products img{
-    width: 300px; 
-    padding: 0px;
-    margin: 45px 0px 20px 0px;
-    }
-    .contant h1{
-    text-align: justify;
-    font-size: 20px;
-    }
-    .contant p{
-    text-align: justify;
-    font-size: 14px;
-    }
-    .rating{
-    width: 100%;
-    text-align: center;
-    display: block;
-    }
-    .star{
-    margin-bottom: 30px;
-    }
-    .logo-contant{
-    width: 100%;
-    display: block;
-    text-align: center;
-    }
-    .logo{
-    margin: auto;
-    margin-bottom: 20px;
-    }
-    .features-area{
-    width: 100%;
-    display: block;
-    margin: auto;
-    padding: 0px;
-    }
-    .features-heading h1{
-    font-size: 48px;
-    margin-top: 20px;
-    text-align: center;
-    }
-    .features-para p{
-    margin-top: 25px;
-    text-align: center;  
-    }
-    .image{
-    text-align: center;
-    }
-    .img-con-pra h3, p{
-    text-align: center;
-    }
-    .benifit-area{
-    width: 100%;
-    display: block;
-    }
-    .benifit-area h1{
+    .inc-heading h2{
+        font-size: 60px;
         text-align: center;
     }
-}
-/* min 576 to max 768 for medium */
-@media screen and (min-width: 576px) and (max-width: 768px){
-    .menu{
-        padding: 0px;
+    .inc-image {
+        text-align: center;
     }
-    .image-right img{
-        margin: 0px;
+    .inc-heading p{
+        text-align: center;
+        margin: auto;
+        margin-top: 50px;
     }
-    .btn-icon{
-        margin-top: 30px;
+    .btn-play{
+        justify-content: center;
     }
-}
-/* min 768 to 992 or large */
-@media screen and (min-width: 768px) and (max-width: 992px){
-    .menu{
-        padding: 0px;
+    .try{
+        width: 200px;
+    }.image-right img{
+        margin-top: 80px;
+        width: 500px;
+        margin: auto;
+        margin-top: 80px;
     }
-    .btn-icon{
-        margin-top: 30px;
+    .extra-width{
+        width: auto;
     }
-    
-}
-/* min 922 to 1200 for extra large */
-@media screen and (min-width: 992px) and (max-width: 1200px){
-    
-}
+    .contant h1{
+        font-size: 35px;
+    }
+    .logo-contant{
+        margin-top: 50px;
+    }
+    .star{
+        margin-bottom: 40px;
+    }
+    .features-area{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    .features-heading h1{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+}   
