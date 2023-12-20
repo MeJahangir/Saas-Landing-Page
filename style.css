@@ -834,7 +834,7 @@ input::placeholder{
 
 /* responsive area */
 /* Max width 576px for small */
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 770px) {
     body{
         background-image: url(images/Background-img.svg);
         background-repeat: no-repeat;
@@ -866,8 +866,9 @@ input::placeholder{
     .extra-width{
         width: auto;
     }
-    .contant h1{
-        font-size: 35px;
+    .gaps{
+        display: flex;
+        flex-direction: column;
     }
     .logo-contant{
         margin-top: 50px;
@@ -879,9 +880,35 @@ input::placeholder{
         margin-top: 70px;
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
     .features-heading h1{
         font-size: 40px;
         margin-bottom: 30px;
     }
+    .img-con-pra{
+        text-align: center;
+    }
+    .benifit{
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .check-align{
+        margin-top: 50px;
+    }
+    .benifit-area h1{
+        font-size: 40px;
+    }
+    .bg-img{
+        width: 450px;
+        margin-top: 50px;
+        margin-right: 90px;
+        background-image: url(images/Rectangle.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+    }
+
+
 }   
