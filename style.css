@@ -834,7 +834,7 @@ input::placeholder{
 
 /* responsive area */
 /* Max width 576px for small */
-@media (min-width: 576px) and (max-width: 770px) {
+@media (min-width: 768px) {
     body{
         background-image: url(images/Background-img.svg);
         background-repeat: no-repeat;
@@ -862,6 +862,7 @@ input::placeholder{
         width: 500px;
         margin: auto;
         margin-top: 80px;
+        margin-right: 80px;
     }
     .extra-width{
         width: auto;
@@ -909,6 +910,23 @@ input::placeholder{
         background-size: cover;
         align-items: center;
     }
-
+    .version-mt{
+        display: flex;
+        flex-direction: column; 
+    }
+    .plan{
+        width: 350px;
+        margin: auto;
+    }
+    .pro{
+        width: 400px;
+        margin: auto;
+    }
+    .man-img img{
+        margin-right: 0px;
+    }
+    .from-con{
+        margin: auto;
+    }
 
 }   
