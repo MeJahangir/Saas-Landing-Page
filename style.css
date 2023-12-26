@@ -1110,3 +1110,27 @@ input::placeholder{
         width: 400px;
     }
 }   
+/* responsive width desktop display */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .inc-heading h2{
+        font-size: 41px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+    .image-right img{
+        width: 425px;
+        height: 430px;
+        margin-top: -20px;
+        margin-right: 0px;
+    }
+    .inc-image img{
+        width: 450px;
+    }
+    .try button{
+        font-size: 16px;
+        padding: 17px 20px 17px 20px;
+    }
+.products img {
+        margin: 19px;
+    }
+}
