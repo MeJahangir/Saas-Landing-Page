@@ -1146,4 +1146,31 @@ input::placeholder{
         width: 296px;
         height: 400px;
     }
+    .bg-img {
+        width: 400px;
+        height: 474px;
+    }
+    .benifit-area h1 {
+        font-size: 41px;
+    }
+    .icon-contant p {
+        font-size: 16px;
+    }
+    .bottom-img { 
+        margin: 300px 0px 0px -110px;
+    }
+    .free-btn {
+        padding: 17px 19px 17px 19px;
+    }
+    .pro-btn{
+        padding: 17px 19px 17px 19px;
+    }
+    .plan-con{
+        background-color: rgb(241 231 231);
+    }
+    .plan-con p{
+        padding: 0px;
+    }
+}   .from-con{
+    width: 430px;
 }
