@@ -1390,18 +1390,9 @@ input::placeholder{
     .features-heading h1 {
         font-size: 41px;
     }
-    .image{
-        text-align: center;
-    }
     .image img {
         width: 296px;
         height: 400px;
-    }
-    .img-con-pra h3{
-        text-align: center;
-    }
-    .img-con-pra p{
-        text-align: center;
     }
     .bg-img{
         width: 450px;
