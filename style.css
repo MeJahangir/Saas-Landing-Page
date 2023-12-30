@@ -834,7 +834,7 @@ input::placeholder{
 
 /* responsive area */
 /* Mobile responsive area */
-@media screen and (min-width: 350px) and (max-width: 575px){
+@media(max-width: 575px){
     body{
         background-image: url(images/Background-img.svg);
         background-repeat: no-repeat;
@@ -845,6 +845,12 @@ input::placeholder{
         text-align: center;
         line-height: 50px;
         margin-top: 50px;
+    }
+    .inc-image img{
+        width: 350px;
+    }
+    .inc-heading p{
+        width: auto;
     }
     .collapse-heading{
         font-size: 35px;
@@ -869,6 +875,20 @@ input::placeholder{
     .inc-heading p{
         text-align: center;
         margin: auto;
+        margin-top: 50px;
+    }
+    .btn-play{
+        display: flex;
+        flex-direction: column;
+    }
+    .try{
+        width: auto;
+        margin: auto;
+    }
+    .ply{
+        margin: auto;
+    }
+    .ply{
         margin-top: 50px;
     }
     .trail-btn{
@@ -902,12 +922,7 @@ input::placeholder{
         overflow: hidden;
         margin: -18px -65px 0px 0px;
     }
-    .btn-play{
-        justify-content: center;
-    }
-    .try{
-        width: 200px;
-    }.image-right img{
+    .image-right img{
         margin-top: 80px;
         width: 500px;
         margin: auto;
@@ -1432,15 +1447,3 @@ input::placeholder{
     }
 }
 
-/* responsive display mobile phone */
-@media screen and (min-width: 350px) and (max-width: 575px){
-    .inc-heading h2{
-        font-size: 50px;
-        text-align: center;
-    }
-    .inc-image img {
-        width: 312px;
-        height: auto;
-        margin-top: 30px;
-    }
-}
