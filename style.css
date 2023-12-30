@@ -904,17 +904,18 @@ input::placeholder{
         margin-top: 15px;
     }
     .from-con{
-        width: 500px;
+        width: auto
+        /* margin: auto; */
     }
     input{
-        width: 350px;
+        width: 200px;
     }
     textarea{
-        width: 350px;
-        height: 70px;
+        width: 200px;
+        height: 60px;
     }
     .from-btn{
-        width: 350px;
+        width: 200px;
     }
     .right-img {
         float: right;
@@ -938,6 +939,10 @@ input::placeholder{
     }
     .logo-contant{
         margin-top: 50px;
+        display: table-footer-group;
+    }
+    .logo{
+        margin: 20px 30px;
     }
     .star{
         margin-bottom: 40px;
@@ -1006,6 +1011,7 @@ input::placeholder{
         margin-bottom: 30px;
     }
     .version-mt{
+        margin: 100px 0px;
         display: flex;
         flex-direction: column; 
     }
@@ -1023,17 +1029,14 @@ input::placeholder{
         width: 400px;
         margin: auto;
     }
-    .man-img img{
+    .man-img{
         margin-right: 0px;
     }
-    .footer{
-        margin-top: 0px;
+    .email{
+        width: auto;
+        margin: 0px 20px 0px 0px;
     }
-    .from-con{
-        width: 515px;
-        margin-top: 50px;
-        display: none;
-    }
+    
 }
 /* Max width 576px for small */
 @media screen and (min-width: 576px) and (max-width: 767px){
