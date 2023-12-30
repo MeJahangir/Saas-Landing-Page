@@ -1431,3 +1431,16 @@ input::placeholder{
         padding: 0px;
     }
 }
+
+/* responsive display mobile phone */
+@media screen and (min-width: 350px) and (max-width: 575px){
+    .inc-heading h2{
+        font-size: 50px;
+        text-align: center;
+    }
+    .inc-image img {
+        width: 312px;
+        height: auto;
+        margin-top: 30px;
+    }
+}
