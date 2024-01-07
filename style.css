@@ -845,16 +845,16 @@ input::placeholder{
     margin: 0 auto;
     overflow: hidden;
    }
+   .increase-area {
+    display: flex;
+    flex-direction: column;
+    }
     .inc-heading h2{
         font-size: 40px;
         text-align: center;
         line-height: 50px;
         margin-top: 50px;
         font-weight: 700;
-    }
-    .inc-image img{
-        width: 280px;
-        height: auto;
     }
     .inc-heading p{
         width: auto;
@@ -878,6 +878,10 @@ input::placeholder{
     }
     .inc-image {
         text-align: center;
+    }
+    .inc-image img{
+        max-width: 100%;
+        height: auto;
     }
     .inc-heading p{
         text-align: center;
@@ -917,18 +921,8 @@ input::placeholder{
         width: auto
         /* margin: auto; */
     }
-    input{
-        width: 200px;
-    }
-    textarea{
-        width: 200px;
-        height: 60px;
-    }
-    .from-btn{
-        width: 200px;
-    }
     .image-right img{
-        width: 300px;
+        max-width: 100%;
         margin: auto;
         margin-top: 50px;
     }
@@ -1012,7 +1006,7 @@ input::placeholder{
     .price img{
         width: 130px;
         height: 50px;
-        margin-right: 15px;
+        margin-right: -70px;
     }
     .left-img{
         margin: 65px 0px 0px -50px;
@@ -1103,7 +1097,6 @@ input::placeholder{
     }
     .footer-heading{
         font-size: 40px;
-        /* font-family: 'interfit'; */
         font-weight: 700;
         line-height: 50px;
     }
@@ -1114,11 +1107,32 @@ input::placeholder{
         flex-direction: row;
         gap: 20px 3px;
     }
+    .Biccas {
+        margin-top: 80px;
+    }
     .email{
         width: auto;
         margin: 0px 20px 0px 0px;
     }
-    
+    .from-con {
+        max-width: 100%;
+        height: auto;
+        padding: 0;
+        margin: auto;
+        padding: 20px 20px 0px 30px; 
+    }
+    input{
+        max-width: 100%;
+        height: auto;
+    }
+    textarea{
+        max-width: 100%;
+        height: 50px;
+    }
+    .from-btn{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
 }
 /* Max width 576px for small */
 @media screen and (min-width: 576px) and (max-width: 767px){
