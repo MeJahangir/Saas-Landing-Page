@@ -414,7 +414,6 @@ button:hover{
     margin-top: 40px;
     align-items: center;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 1);
 }
 .monthly{
     width: 160px;
@@ -1135,34 +1134,76 @@ input::placeholder{
     }
 }
 /* Max width 576px for small */
-@media screen and (min-width: 576px) and (max-width: 767px){
+@media (min-width: 576px){
     body{
         background-image: url(images/Background-img.svg);
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .inc-heading h2{
-        font-size: 35px;
-        text-align: center;
-        line-height: 50px;
+    .bg-img {
+        width: 100%;
+        height: 500px;
+        background-image: url(images/Rectangle.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
         margin-top: 50px;
-    }
-    .collapse-heading{
-        font-size: 35px;
-        text-align: center;
-        line-height: 50px;
-        margin-top: 50px;
-    }
-    .contant h1{
-        font-size: 35px;
-        text-align: center;
-        line-height: 50px;
-        margin-top: 50px;
-    }
-    .contant p{
-        text-align: center;
+        border-radius: 20px;
+        float: none;
         margin: auto;
-        margin-top: 50px;
+    }
+    .top-img img {
+        width: 200px;
+        height: auto;
+        margin-left: 45px;
+        margin-top: 10px;
+    }
+    .price img {
+        width: 160px;
+        height: 80px;
+        margin-right: -70px;
+    }
+    .left-img{
+        width: 50px;
+        height: auto;
+        margin-top: 130px;
+    }
+    .bottom-img img {
+        width: 291px;
+        height: 126px;
+        margin-left: -30px;
+        margin-top: 210px;
+    }
+    .plan {
+        padding: 1px 10px;
+        max-width: 100%;
+        /* padding: 30px; */
+        height: auto;
+        margin: 40px;
+        padding: 30px;
+    }
+    
+}
+/* min width 768px to 992px for ipad mini */
+@media (min-width: 768px) {
+    body{
+        background-image: url(images/Background-img.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .increase-area {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .inc-heading h2{
+        font-size: 56px;
+        text-align: center;
+    }
+    .ply {
+        margin: auto;
+        width: auto;
+        margin-top: 0px;
+        margin-bottom: 20px;
     }
     .inc-image {
         text-align: center;
@@ -1170,181 +1211,50 @@ input::placeholder{
     .inc-heading p{
         text-align: center;
         margin: auto;
-        margin-top: 50px;
-    }
-    .trail-btn{
-        margin-top: 50px;
-    }
-    .img-con-pra p{
-        margin-top: 20px;
-    }
-    .hover-btn{
-        margin: 20px;
-    }
-    .free-plan{
         margin-top: 15px;
     }
-    .from-con{
-        width: 500px;
-    }
-    input{
-        width: 350px;
-    }
-    textarea{
-        width: 350px;
-        height: 70px;
-    }
-    .from-btn{
-        width: 350px;
-    }
-    .right-img {
-        float: right;
-        display: block;
-        overflow: hidden;
-        margin: -18px -65px 0px 0px;
-    }
     .btn-play{
-        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
     }
-    .try{
-        width: 200px;
-    }.image-right img{
-        margin-top: 80px;
-        width: 500px;
+    .image-right img {
+        max-width: 100%;
         margin: auto;
-        margin-top: 80px;
+        margin-top: 50px;
+        margin-top: 70px;
     }
     .extra-width{
         width: auto;
-        margin-top: 0px;
     }
     .gaps{
         display: flex;
         flex-direction: column;
     }
+    .logo{
+        margin: 0;
+    }
     .logo-contant{
-        margin-top: 50px;
+        gap: 45px;
+        text-align: left;
+        display:inline-flex;
     }
-    .star{
-        margin-bottom: 40px;
+    .star{   
+         margin-bottom: 40px;
     }
-    .features-area{
-        margin-top: 70px;
+    .feauture-area-margin {
+        margin-top: 74px;
         display: flex;
-        flex-direction: column;
-        text-align: center;
+        flex-direction: row-reverse;
     }
     .features-heading h1{
         font-size: 40px;
         margin-bottom: 30px;
     }
-    .img-con-pra{
-        text-align: center;
-    
-    }
-    .benifit{
-        display: flex;
-        flex-direction: column;
-        margin-top: 70px;
-    }
-    .check-align{
-        margin-top: 50px;
-    }
-    .benifit-area h1{
-        font-size: 40px;
-    }
-    .bg-img{
-        margin-right: 0px;
-        width: 400px;
-        margin-top: 50px;
-        border-radius: 20px;
-        background-image: url(images/Rectangle.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        align-items: center;
-        margin-right: 38px;
-    }
-    .version-mt{
-        display: flex;
-        flex-direction: column; 
-    }
-    .plan-con{
-        text-align: center;
-        width: 400px;
-        margin: auto;
-        margin-bottom: 15px;
-    }
-    .plan{
-        width: 350px;
-        margin: auto;
-    }
     .pro{
         width: 400px;
         margin: auto;
-    }
-    .man-img img{
-        margin-right: 0px;
-    }
-    .footer{
-        margin-top: 0px;
-    }
-    .from-con{
-        width: 515px;
-        margin-top: 50px;
-    }
-}
-/* min width 768px to 991px for ipad mini */
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    body{
-        background-image: url(images/Background-img.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .inc-heading h2{
-        font-size: 60px;
-        text-align: center;
-    }
-    .inc-image {
-        text-align: center;
-    }
-    .inc-heading p{
-        text-align: center;
-        margin: auto;
-        margin-top: 50px;
-    }
-    .btn-play{
-        justify-content: center;
-    }
-    .try{
-        width: 200px;
-    }.image-right img{
-        margin-top: 80px;
-        width: 500px;
-        margin: auto;
-        margin-top: 80px;
-        margin-right: 80px;
-    }
-    .extra-width{
-        width: auto;
-    }
-    .gaps{
-        display: flex;
-        flex-direction: column;
-    }
-    .logo-contant{
-        margin-top: 50px;
-    }
-    .star{
-        margin-bottom: 40px;
-    }
-    .features-area{
-        margin-top: 70px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .features-heading h1{
-        font-size: 40px;
+        margin-top: 30px;
         margin-bottom: 30px;
     }
     .img-con-pra{
@@ -1384,31 +1294,37 @@ input::placeholder{
         width: 350px;
         margin: auto;
     }
-    .pro{
-        width: 400px;
-        margin: auto;
-    }
     .man-img img{
         margin-right: 0px;
     }
+    form{
+        text-align: center;
+    }
     .from-con {
-        width: 620px;
+        max-width: 100%;
+        height: auto;
+        padding: 0;
         margin: auto;
-        margin-top: 50px;
-    }
-    input{
-        width: 400px;
-        height: 50px;
-    }
-    textarea{
-        width: 400px;
-        height: 70px;
+        padding: 20px 20px 0px 30px; 
     }
     label{
-        font-size: 22px;
+        margin-left: -391px;
+        font-size: 20px;
+    }
+    .label-text{
+        margin-left: -358px;
+    }
+    input{
+        max-width: 100%;
+        height: auto;
+    }
+    textarea{
+        max-width: 100%;
+        height: 50px;
     }
     .from-btn{
-        width: 400px;
+        max-width: 100%;
+        margin-bottom: 30px;
     }
 }   
 /* responsive width desktop display */
