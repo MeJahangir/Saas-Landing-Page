@@ -476,7 +476,7 @@ button:hover{
     line-height: 30px;
     text-align: center;
     font-family: 'Inter';
-    margin: -15px 0px 30px 0px;
+    margin: -15px -75px 30px 0px;
     color: rgba(25, 26, 21, 1);
 }
 
@@ -709,7 +709,6 @@ button:hover{
     width: 400px;
     border: 1px solid white;
     border-radius: 30px;
-    margin-top: ;
 }
 .email-con p{
     font-size: 18px;
@@ -830,24 +829,32 @@ input::placeholder{
     line-height: 30px;
     font-family: 'Inter';
     color: rgba(255, 255, 255, 1);
+    margin-bottom: 40px;
 }
 
 /* responsive area */
 /* Mobile responsive area */
-@media(max-width: 575px){
+@media (min-width:320px){
     body{
         background-image: url(images/Background-img.svg);
         background-repeat: no-repeat;
         background-size: cover;
     }
+   .container{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+   }
     .inc-heading h2{
-        font-size: 35px;
+        font-size: 40px;
         text-align: center;
         line-height: 50px;
         margin-top: 50px;
+        font-weight: 700;
     }
     .inc-image img{
-        width: 350px;
+        width: 280px;
+        height: auto;
     }
     .inc-heading p{
         width: auto;
@@ -887,9 +894,12 @@ input::placeholder{
     }
     .ply{
         margin: auto;
-    }
-    .ply{
+        width: auto;
         margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .rating{
+        text-align: center;
     }
     .trail-btn{
         margin-top: 50px;
@@ -917,21 +927,15 @@ input::placeholder{
     .from-btn{
         width: 200px;
     }
-    .right-img {
-        float: right;
-        display: block;
-        overflow: hidden;
-        margin: -18px -65px 0px 0px;
-    }
     .image-right img{
-        margin-top: 80px;
-        width: 400px;
+        width: 300px;
         margin: auto;
-        margin-top: 80px;
+        margin-top: 50px;
     }
     .extra-width{
         width: auto;
         margin-top: 0px;
+        padding: 0;
     }
     .gaps{
         display: flex;
@@ -940,9 +944,12 @@ input::placeholder{
     .logo-contant{
         margin-top: 50px;
         display: table-footer-group;
+        text-align: center;
     }
     .logo{
-        margin: 20px 30px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
     .star{
         margin-bottom: 40px;
@@ -959,12 +966,16 @@ input::placeholder{
     }
     .img-con-pra{
         text-align: center;
-    
+    }
+    .feauture-area-margin {
+        margin-top: 74px;
+        display: flex;
+        flex-direction: column;
     }
     .benifit{
         display: flex;
         flex-direction: column;
-        margin-top: 70px;
+        margin-top: 40px;
     }
     .check-align{
         margin-top: 50px;
@@ -975,40 +986,54 @@ input::placeholder{
         text-align: center;
         padding: 0px;
     }
-    .image{
-        width: 100%;
+    .image img{
+        border-radius: 20px;
+        margin-bottom: 20px;
+        max-width: 100%;
+        height: auto;
     }
     .bg-img{
-        margin-right: 0px;
-        width: 50%;
+        width: 75%;
+        height: 250px;
+        background-image: url(images/Rectangle.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
         margin-top: 50px;
         border-radius: 20px;
-        background-image: url(images/Rectangle.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
         float: none;
         margin: auto;
-        height: 320px;
-    }
-    .top-img{
-        margin: 30px 0px 0px -85px;
     }
     .top-img img{
-        width: 200px;
+        width: 150px;
+        height: auto;
+        margin-left: 90px;
+        margin-top: 10px;
     }
     .price img{
         width: 130px;
+        height: 50px;
+        margin-right: 15px;
+    }
+    .left-img{
+        margin: 65px 0px 0px -50px;
     }
     .bottom-img{
-        margin: 233px 0px 0px -100px;
+        margin: 160px 0px 0px -110px;
     }
+    .choose-plan{
+        margin-top: 80px;
+    }
+
     .bottom-img img{
-        width: 200px;
+        width: 160px;
+        height: 60px;
+        margin-left: 60px;
     }
     .btn-width{
         display: flex;
         flex-direction: column;
         margin-bottom: 30px;
+        margin-top: 30px;
     }
     .version-mt{
         margin: 100px 0px;
@@ -1016,21 +1041,78 @@ input::placeholder{
         flex-direction: column; 
     }
     .plan-con{
-        text-align: center;
-        width: 400px;
+        background-color: #f2f1f3;
+        max-width: 100%;
+        height: auto;
         margin: auto;
-        margin-bottom: 15px;
+        margin-bottom: 50px;
+    }
+    .plan-con p{
+        padding: 0px;
+    } 
+    .dollar{
+        font-size: 25px
+    }
+    .price{
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: -15px;
     }
     .plan{
-        width: 350px;
-        margin: auto;
+        padding: 1px 10px;
+        max-width: 100%;
+        height: auto;
+    }
+    .plan-button{
+        margin: 27px 0px;
+    }
+    .free-btn{
+        font-size: 18px;
+        padding: 18px 35px 18px 35px;
     }
     .pro{
-        width: 400px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .pro p{
+        padding: 0px;
+    }
+    .pro-dollar{
+        font-size: 25px
+    }
+    .pro-price{
         margin: auto;
+        margin-bottom: 30px;
+        margin-top: -15px;
+    }
+    .pro-btn{
+        font-size: 18px;
+        padding: 18px 35px 18px 35px;
+    }
+    .version-mt {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+    .footer{
+        margin: auto;
+        padding-top: 40px;
+    }
+    .footer-heading{
+        font-size: 40px;
+        /* font-family: 'interfit'; */
+        font-weight: 700;
+        line-height: 50px;
     }
     .man-img{
-        margin-right: 0px;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 20px 3px;
     }
     .email{
         width: auto;
