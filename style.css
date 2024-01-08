@@ -162,7 +162,7 @@ button:hover{
 .collapse-heading h1{
     font-size: 40px;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 50px;
     text-align: center;
     font-family: 'Inter';
     color: rgba(25, 26, 21, 1);
@@ -865,7 +865,8 @@ input::placeholder{
         margin-top: 50px;
     }
     .contant h1{
-        font-size: 35px;
+        font-size: 40px;
+        font-weight: 700;
         text-align: center;
         line-height: 50px;
         margin-top: 50px;
@@ -956,6 +957,8 @@ input::placeholder{
     .features-heading h1{
         font-size: 40px;
         margin-bottom: 30px;
+        line-height: 50px;
+        font-weight: 700;
     }
     .img-con-pra{
         text-align: center;
@@ -976,6 +979,8 @@ input::placeholder{
     }
     .benifit-area h1{
         font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
         text-align: center;
         padding: 0px;
     }
@@ -1104,7 +1109,22 @@ input::placeholder{
         margin: auto;
         display: flex;
         flex-direction: row;
-        gap: 20px 3px;
+    }
+    .images img {
+        width: 40px;
+        height: 40px;
+        float: left;
+    }
+    .play-btn {
+        width: 40px;
+        height: 40px;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+    .play-btn img {
+        text-align: center;
+        align-items: center;
+        margin: 8px 14px;
     }
     .Biccas {
         margin-top: 80px;
