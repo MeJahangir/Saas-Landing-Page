@@ -176,11 +176,11 @@ button:hover{
     margin: 37px;
 }
 .products img:hover{
-    background-color: #15C39A;
+    background-color: #b1c7c2;
     border-radius: 30px;
     padding: 5px 8px;
     transform: rotate(360deg);
-    transition: 5s;
+    transition: 2s;
 }
 
 /* rating and contant area style */
@@ -802,7 +802,7 @@ input::placeholder{
     color: rgba(255, 255, 255, 1);
 }
 .help-care {
-    margin-top: 122px;
+   margin-top: 70px;
 }
 .care {
     font-size: 18px;    
@@ -821,7 +821,6 @@ input::placeholder{
    color: rgba(166, 166, 166, 1);
 }
 .conditon{
-    float: right;
     font-size: 18px;
     margin-top: 38px;
     font-weight: 500;
@@ -862,16 +861,28 @@ input::placeholder{
         font-size: 35px;
         text-align: center;
         line-height: 50px;
-        margin-top: 50px;
+        margin-top: 70px;
+    }
+    .products img {
+        width: 145px;
+        height: 36px;
+        /* margin: 37px; */
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .products {
+        text-align: center;
+        margin: 30px 0px 45px;
     }
     .contant h1{
         font-size: 40px;
         font-weight: 700;
         text-align: center;
         line-height: 50px;
-        margin-top: 50px;
+        margin-top: 70px;
     }
     .contant p{
+        font-size: 18px;
         text-align: center;
         margin: auto;
         margin-top: 50px;
@@ -964,14 +975,27 @@ input::placeholder{
         text-align: center;
     }
     .feauture-area-margin {
-        margin-top: 74px;
+        margin-top: 50px;
         display: flex;
         flex-direction: column;
     }
     .benifit{
         display: flex;
         flex-direction: column;
-        margin-top: 40px;
+        margin-top: 70px;
+    }
+    .icon-contant {
+        display: flex;
+        column-gap: 10px;
+        margin-top: 15px;
+    }
+    .choose-plan h1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        font-family: 'Inter';
+        color: rgba(25, 26, 21, 1);
     }
     .check-align{
         margin-top: 50px;
@@ -1000,12 +1024,19 @@ input::placeholder{
         border-radius: 20px;
         float: none;
         margin: auto;
+        margin-bottom: 25px;
     }
     .top-img img{
         width: 150px;
         height: auto;
         margin-left: 90px;
         margin-top: 10px;
+    }
+    .price{
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: -15px;
+        overflow: visible;
     }
     .price img{
         width: 130px;
@@ -1018,43 +1049,42 @@ input::placeholder{
     .bottom-img{
         margin: 160px 0px 0px -110px;
     }
-    .choose-plan{
-        margin-top: 80px;
-    }
-
     .bottom-img img{
         width: 160px;
         height: 60px;
         margin-left: 60px;
     }
+    .choose-plan{
+        margin-top: 70px;
+    }
+    .choose-plan p{
+        margin-top: 10px;
+    }
     .btn-width{
         display: flex;
         flex-direction: column;
         margin-bottom: 30px;
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .version-mt{
         margin: 100px 0px;
         display: flex;
         flex-direction: column; 
+        margin-top: 70px;
+        margin-bottom: 70px;
     }
     .plan-con{
         background-color: #f2f1f3;
         max-width: 100%;
         height: auto;
         margin: auto;
-        margin-bottom: 50px;
+        margin-top: 70px;
     }
     .plan-con p{
         padding: 0px;
     } 
     .dollar{
         font-size: 25px
-    }
-    .price{
-        margin: auto;
-        margin-bottom: 30px;
-        margin-top: -15px;
     }
     .plan{
         padding: 1px 10px;
@@ -1071,7 +1101,7 @@ input::placeholder{
     .pro{
         max-width: 100%;
         height: auto;
-        margin-bottom: 40px;
+        margin-top: 70px;
     }
     .pro p{
         padding: 0px;
@@ -1092,8 +1122,8 @@ input::placeholder{
         display: flex;
         flex-direction: column;
         margin: auto;
-        margin-top: 100px;
-        margin-bottom: 40px;
+        margin-top: 70px;
+        margin-bottom: 70px;
     }
     .footer{
         margin: auto;
@@ -1152,6 +1182,17 @@ input::placeholder{
         max-width: 100%;
         margin-bottom: 30px;
     }
+    .conditon{
+        text-align: center;
+        font-size: 18px;
+        margin-top: 38px;
+        font-weight: 500;
+        line-height: 30px;
+        font-family: 'Inter';
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 40px;
+        float: none;
+    }
 }
 /* Max width 576px for small */
 @media (min-width: 576px){
@@ -1161,7 +1202,7 @@ input::placeholder{
         background-size: cover;
     }
     .bg-img {
-        width: 100%;
+        width: 75%;
         height: 500px;
         background-image: url(images/Rectangle.svg);
         background-size: cover;
@@ -1170,6 +1211,7 @@ input::placeholder{
         border-radius: 20px;
         float: none;
         margin: auto;
+        margin-bottom: 25px;
     }
     .top-img img {
         width: 200px;
@@ -1190,7 +1232,7 @@ input::placeholder{
     .bottom-img img {
         width: 291px;
         height: 126px;
-        margin-left: -30px;
+        margin-left: -23px;
         margin-top: 210px;
     }
     .plan {
@@ -1348,7 +1390,7 @@ input::placeholder{
     }
 }   
 /* responsive width desktop display */
-@media screen and (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 992px){
     .inc-heading h2{
         font-size: 41px;
         font-weight: 700;
