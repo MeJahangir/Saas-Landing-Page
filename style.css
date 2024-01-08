@@ -1497,6 +1497,7 @@ input::placeholder{
         width: 296px;
         height: 400px;
     }
+    /* marign right none isue in tablet device isschu */
     .bg-img {
         width: 400px;
         height: 474px;
