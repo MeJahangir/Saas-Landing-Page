@@ -1407,35 +1407,91 @@ input::placeholder{
 }   
 /* responsive width desktop display */
 @media (min-width: 992px){
+    .increase-area {
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
     .inc-heading h2{
-        font-size: 41px;
-        font-weight: 700;
-        line-height: 60px;
+        font: 'inter';
+        font-size: 70px;
+        text-align: left;
+        line-height: 80px;
+        margin-top: 0px;
     }
     .image-right img{
-        width: 425px;
-        height: 430px;
-        margin-top: -20px;
-        margin-right: 0px;
+       max-width: 100%;
+       height: auto;
+       margin-top: 25px;
+    }
+    .inc-heading p {
+        margin: auto;
+        margin-top: 15px;
+        text-align: left;
+    }
+    .try{
+        margin: initial;
+    }
+    .ply{
+        margin: initial;
+        margin-top: -3px;
+    }
     }
     .inc-image img{
-        width: 450px;
-    }
-    .try button{
-        font-size: 16px;
-        padding: 17px 20px 17px 20px;
+        max-width: 100%;
+        height: auto;
+        margin: initial;
     }
     .products img {
-        margin: 19px;
+        margin: 15px;
     }
     .extra-width{
         width: auto;
     }
+    .gaps {
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+    }
     .contant h1 {
         font-size: 41px;
+        text-align: left;
+        margin: 0px;
+    }
+    .contant p{
+        text-align: left;
+    }
+    .rating {
+        text-align: left;
+    }
+    .logo-contant{
+        margin-top: 0px;
+        margin-bottom: 35px;
+    }
+    .features-area {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
     }
     .features-heading h1 {
         font-size: 41px;
+    }
+    .try button{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .feauture-area-margin {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+    }
+    .img-con-pra{
+        margin-top: 0px;
+    }
+    .img-con-pra h3, p{
+        text-align: left;
     }
     .image img {
         width: 296px;
@@ -1445,6 +1501,11 @@ input::placeholder{
         width: 400px;
         height: 474px;
         float: left;
+    }
+    .benifit {
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
     }
     .benifit-area h1 {
         font-size: 41px;
