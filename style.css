@@ -802,7 +802,7 @@ input::placeholder{
     color: rgba(255, 255, 255, 1);
 }
 .help-care {
-   margin-top: 70px;
+   margin-top: 90px;
 }
 .care {
     font-size: 18px;    
@@ -1313,12 +1313,6 @@ input::placeholder{
         font-size: 40px;
         margin-bottom: 30px;
     }
-    .pro{
-        width: 400px;
-        margin: auto;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
     .img-con-pra{
         text-align: center;
     }
@@ -1332,6 +1326,7 @@ input::placeholder{
     }
     .benifit-area h1{
         font-size: 40px;
+        text-align: -webkit-left;
     }
     .bg-img{
         width: 450px;
@@ -1350,14 +1345,35 @@ input::placeholder{
         text-align: center;
         width: 400px;
         margin: auto;
-        margin-bottom: 15px;
+        margin-top: 70px;
+    }
+    .pro{
+        width: 400px;
+        margin: auto;
+        margin-top: 70px;
     }
     .plan{
         width: 350px;
         margin: auto;
     }
-    .man-img img{
-        margin-right: 0px;
+    .man-img {
+        text-align: center;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .images img{
+        width: 66px;
+        height: 66px;
+        margin: auto;
+    }
+    .play-btn{
+        width: 66px;
+        height: 66px;
+    }
+    .play-btn img{
+        width: 20px;
+        margin: 15px 0px 0px 7px;
     }
     form{
         text-align: center;
