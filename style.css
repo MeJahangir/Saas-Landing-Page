@@ -1669,7 +1669,7 @@ input::placeholder{
     }
     .bg-img{
         width: 450px;
-        height: 474px;
+        height: 380px;
         float: left;
         margin-left: 55px
     }
@@ -1685,7 +1685,7 @@ input::placeholder{
         font-size: 16px;
     }
     .bottom-img { 
-        margin: 300px 0px 0px -110px;
+        margin: 0px 0px 0px -110px;
     }
     .free-btn {
         padding: 17px 19px 17px 19px;
