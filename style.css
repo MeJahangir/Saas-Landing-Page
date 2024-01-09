@@ -1253,7 +1253,7 @@ input::placeholder{
         margin-bottom: 70px;
     }
     .help-care {
-        text-align: left;
+        text-align: center;
     }
     
 }
@@ -1545,10 +1545,45 @@ input::placeholder{
         font-size: 41px;
     }
     .plan-con{
-        background-color: rgb(241 231 231);
+        background-color: rgb(247 247 247);
+    }
+    .free-plan {
+        margin-top: 15px;
+    }
+    .plan {
+        padding: 30px;
+        background-color: rgb(232 240 247);
+        border-radius: 15px;
     }
     .plan-con p{
         padding: 0px;
+    }
+    .btn-width {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        margin-top: 35px;
+    }
+    .version-mt{
+        display: flex;
+        flex-direction: row;
+    }
+    .plan-con {
+        text-align: center;
+        width: 270px;
+        margin: auto;
+    }
+    .pro {
+        width: 270px;
+        margin: auto;
+        margin-top: -30px;
+    }
+    .free-plan h6 {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 29px;
+        font-family: 'Inter';
+        color: rgba(25, 26, 21, 1);
     }
     .from-con{
         width: 430px;
@@ -1559,6 +1594,13 @@ input::placeholder{
     textarea{
         width: 300px;
     }
+    label {
+        margin-left: -252px;
+        font-size: 20px;
+    }
+    .label-text {
+        margin-left: -219px;
+    }
     .from-btn{
         width: 300px;
     }
@@ -1566,7 +1608,7 @@ input::placeholder{
         margin-top: 55px;
     }
     .footer-para-bottom{
-        margin-top: 54px;
+        margin-top: 95px;
     }
     .man-img{
         padding-right: 40px;
