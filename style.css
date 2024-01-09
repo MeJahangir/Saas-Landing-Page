@@ -916,6 +916,9 @@ input::placeholder{
     .rating{
         text-align: center;
     }
+    .icon-con{
+        margin-bottom: 50px;
+    }
     .trail-btn{
         margin-top: 50px;
     }
@@ -1182,6 +1185,9 @@ input::placeholder{
         max-width: 100%;
         margin-bottom: 30px;
     }
+    .help-care {
+        text-align: left;
+    }
     .conditon{
         text-align: center;
         font-size: 18px;
@@ -1232,7 +1238,7 @@ input::placeholder{
     .bottom-img img {
         width: 291px;
         height: 126px;
-        margin-left: -23px;
+        margin-left: 10px;
         margin-top: 210px;
     }
     .plan {
@@ -1242,6 +1248,12 @@ input::placeholder{
         height: auto;
         margin: 40px;
         padding: 30px;
+    }
+    .icon-con{
+        margin-bottom: 70px;
+    }
+    .help-care {
+        text-align: left;
     }
     
 }
@@ -1404,6 +1416,9 @@ input::placeholder{
         max-width: 100%;
         margin-bottom: 30px;
     }
+    .help-care {
+        text-align: center;
+    }
 }   
 /* responsive width desktop display */
 @media (min-width: 992px){
@@ -1436,7 +1451,6 @@ input::placeholder{
     .ply{
         margin: initial;
         margin-top: -3px;
-    }
     }
     .inc-image img{
         max-width: 100%;
@@ -1497,16 +1511,20 @@ input::placeholder{
         width: 296px;
         height: 400px;
     }
-    /* marign right none isue in tablet device isschu */
     .bg-img {
         width: 400px;
-        height: 474px;
-        float: left;
+        height: 397px;
+        margin: auto;
     }
     .benifit {
         display: flex;
         flex-direction: row;
         margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    .check-align {
+        margin: 0 auto;
+        margin-top: 53px;
     }
     .benifit-area h1 {
         font-size: 41px;
@@ -1515,7 +1533,7 @@ input::placeholder{
         font-size: 16px;
     }
     .bottom-img { 
-        margin: 300px 0px 0px -110px;
+        margin: 50px 0px 0px -110px;
     }
     .free-btn {
         padding: 17px 19px 17px 19px;
