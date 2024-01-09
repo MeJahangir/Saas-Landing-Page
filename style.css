@@ -1667,6 +1667,12 @@ input::placeholder{
         width: 296px;
         height: 400px;
     }
+    .img-con-pra h3{
+        text-align: center;
+    }
+    .img-con-pra p{
+        text-align: center;
+    }
     .bg-img{
         width: 450px;
         height: 380px;
