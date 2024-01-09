@@ -1699,6 +1699,30 @@ input::placeholder{
     .benifit-area h1 {
         font-size: 41px;
     }
+    .btn-width{
+        background-color: rgba(255, 255, 255, 1);
+        text-align: center;
+        gap: 10px;
+    }
+    .hover-btn{
+        margin: 0px;
+    }
+    .monthly {
+        width: 155px;
+        height: 56px;
+        border: none;
+        border-radius: 10px;
+        font-family: 'Inter';
+        background-color: rgba(255, 255, 255, 1);
+    }
+    .yearly {
+        border: none;
+        width: 155px;
+        height: 56px;
+        border-radius: 10px;
+        font-family: 'Inter';
+        background-color: rgba(84, 189, 149, 1);
+    }
     .icon-contant p {
         font-size: 16px;
     }
@@ -1710,9 +1734,6 @@ input::placeholder{
     }
     .pro-btn{
         padding: 17px 19px 17px 19px;
-    }
-    .footer-heading h1{
-        font-size: 41px;
     }
     .plan-con {
         text-align: center;
@@ -1737,6 +1758,9 @@ input::placeholder{
     }
     .plan-con p{
         padding: 0px;
+    }
+    .footer-heading h1{
+        font-size: 41px;
     }
 }
 
