@@ -1137,6 +1137,14 @@ input::placeholder{
         font-weight: 700;
         line-height: 50px;
     }
+    .footer-para-bottom {
+        font-size: 13px;
+        font-weight: 500;
+        margin-top: 33px;
+        line-height: 30px;
+        font-family: 'Inter';
+        color: rgba(166, 166, 166, 1);
+    }
     .man-img{
         text-align: center;
         margin: auto;
@@ -1171,7 +1179,8 @@ input::placeholder{
         height: auto;
         padding: 0;
         margin: auto;
-        padding: 20px 20px 0px 30px; 
+        padding: 20px 20px 0px 30px;
+        margin-top: 50px; 
     }
     input{
         max-width: 100%;
@@ -1271,7 +1280,7 @@ input::placeholder{
 
     .inc-heading h2{
         font-size: 56px;
-        text-align: center;
+        text-align: left;
     }
     .ply {
         margin: auto;
@@ -1283,7 +1292,7 @@ input::placeholder{
         text-align: center;
     }
     .inc-heading p{
-        text-align: center;
+        text-align: left;
         margin: auto;
         margin-top: 15px;
     }
@@ -1442,20 +1451,22 @@ input::placeholder{
     }
     .inc-heading p {
         margin: auto;
-        margin-top: 15px;
+        margin-top: 50px;
         text-align: left;
+        margin-right: 80px;
     }
     .try{
         margin: initial;
     }
     .ply{
         margin: initial;
-        margin-top: -3px;
+        margin-top: 10px;
     }
     .inc-image img{
-        max-width: 100%;
+        max-width: 75%;
         height: auto;
         margin: initial;
+        float: left;
     }
     .products img {
         margin: 15px;
@@ -1614,8 +1625,12 @@ input::placeholder{
         padding-right: 40px;
     }
 }
+/* responsive width large desktop site */
+@media (min-width: 1200px){
+    
+}
 /* responsive min width 1200 to 1399 for desktop */
-@media screen and (min-width: 1200px) and (max-width: 1399px) {
+@media screen and (min-width: 1200px){
     .inc-heading h2{
         font-size: 80px;
         font-weight: 700;
@@ -1680,6 +1695,23 @@ input::placeholder{
     }
     .footer-heading h1{
         font-size: 41px;
+    }
+    .plan-con {
+        text-align: center;
+        width: 340px;
+        margin: auto;
+    }
+    .pro {
+        width: 340px;
+        margin: auto;
+        margin-top: -30px;
+    }
+    .free-plan h6 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29px;
+        font-family: 'Inter';
+        color: rgba(25, 26, 21, 1);
     }
     .plan-con{
         background-color: rgb(252, 249, 249);
