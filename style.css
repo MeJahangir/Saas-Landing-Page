@@ -1266,7 +1266,8 @@ input::placeholder{
         margin-bottom: 70px;
     }
     .help-care {
-        text-align: center;
+        text-align: left;
+        margin-left: 20px;
     }
     
 }
@@ -1430,7 +1431,10 @@ input::placeholder{
         margin-bottom: 30px;
     }
     .help-care {
-        text-align: center;
+        margin-left: 70px;
+    }
+    .service-area{
+        text-align: left;
     }
 }   
 /* responsive width desktop display */
@@ -1761,6 +1765,10 @@ input::placeholder{
     }
     .footer-heading h1{
         font-size: 41px;
+    }
+    .help-care {
+        /* text-align: center; */
+        margin-left: 50px;
     }
 }
 
