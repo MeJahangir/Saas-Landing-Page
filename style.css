@@ -13,7 +13,7 @@ body{
         max-width: 1180px;
     }
 }
-
+/* 
 .navbar{
     width: 1180px;
     margin: auto;
@@ -86,7 +86,7 @@ body{
 }
 .signup:hover{
     color: rgb(209, 132, 132);
-}
+} */
 /*increase area style  */
 
 .increase-area{
