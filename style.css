@@ -21,16 +21,16 @@
 .home-menu{
     font-size: 18px;
     font-weight: 500;
-    font-family: 'Inter';
     line-height: 21px;
+    font-family: 'Inter';
     color: rgba(0, 0, 0, 1);
 
 }
 .menus{
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Inter';
     line-height: 21px;
+    font-family: 'Inter';
     color: rgba(166, 166, 166, 1);
 }
 .navbar-nav{
@@ -46,12 +46,12 @@
 .login{
     width: 80px;
     height: 40px;
+    border: none;
     padding: 0px;
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
     font-family: inter;
-    border: none;
     color: rgba(166, 166, 166, 1);
 }
 .login:hover{
@@ -66,14 +66,14 @@
     padding: 0px;
     font-size: 16px;
     font-weight: 500;
-    border-radius: 10px;
     line-height: 19px;
     font-family: inter;
+    border-radius: 10px;
     background-color: rgba(84, 189, 149, 1);
 }
 .signup:hover{
-    background-color: rgb(18, 104, 71);
     color: aliceblue;
+    background-color: rgb(18, 104, 71);
 }
 /*increase area style  */
 /* Heading caption */
