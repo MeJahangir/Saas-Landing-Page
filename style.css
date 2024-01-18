@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
 }
-body{
+/* body{
     background-image: url(images/Background-img.svg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Inter';
-} 
+}  */
 
 @media (min-width: 1200px) {
     .container {
@@ -1666,10 +1666,6 @@ input::placeholder{
     .man-img{
         padding-right: 40px;
     }
-}
-/* responsive width large desktop site */
-@media (min-width: 1200px){
-    
 }
 /* responsive min width 1200 to 1399 for desktop */
 @media (min-width: 1200px){
