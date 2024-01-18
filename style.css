@@ -15,61 +15,70 @@ body{
     }
 }
 /* Menu Items style */
-
-.nav-margin{
-    margin: auto;
-    gap: 40px;
+.navbar{
+    margin-top: 40px;
 }
-.menu a{
+.navbar-brand{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: 'Inter';
+    color: rgba(84, 189, 149, 1);
+}
+.home-menu{
     font-size: 18px;
     font-weight: 500;
     font-family: 'Inter';
-    line-height: 19.36px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+
+}
+.menus{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter';
+    line-height: 21px;
     color: rgba(166, 166, 166, 1);
 }
-.menu a:hover{
-    border: 1px solid gray;
+.navbar-nav{
+    gap: 40px;
+    margin-left: 198px;
 }
-
 /* Button area style */
+.login-signup{
+    gap: 10px;
+}
 .login{
     width: 80px;
     height: 40px;
     padding: 0px;
-}
-.login {
     font-size: 16px;
     font-weight: 500;
-    color: #A6A6A6;
-    font-family: 'Inter';
-    line-height: 19.36px;
-    text-decoration: none;
-    
+    line-height: 19px;
+    font-family: inter;
+    border: none;
 }
 .login:hover{
     font-size: 20px;
     font-weight: 500;
-    color: #A6A6A6;
+    color: aliceblue;
     font-family: 'Inter';
 }
 .signup{
     width: 80px;
     height: 40px;
     padding: 0px;
-}
-.signup {
-    margin: auto;
     font-size: 16px;
     font-weight: 500;
-    color: rgba(248, 248, 250, 1);
     border-radius: 10px;
-    font-family: 'Inter';
-    line-height: 19.36px;
-    background-color: rgb(0, 102, 63);
+    line-height: 19px;
+    font-family: inter;
+    background-color: rgba(84, 189, 149, 1);
 }
 .signup:hover{
-    color: rgb(209, 132, 132);
-} */
+    background-color: rgb(18, 104, 71);
+    color: aliceblue;
+}
 /*increase area style  */
 /* Heading caption */
 .header-area{
