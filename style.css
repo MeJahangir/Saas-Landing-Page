@@ -2,13 +2,6 @@
     margin: 0;
     padding: 0;
 }
-/* body{
-    background-image: url(images/Background-img.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Inter';
-}  */
-
 @media (min-width: 1200px) {
     .container {
         max-width: 1180px;
@@ -1465,6 +1458,9 @@ input::placeholder{
 /* responsive width desktop display */
 @media (min-width: 992px){
     /* nav menu add */
+    .login{
+        border: none;
+    }
     .navbar-expand-lg .navbar-nav {
         margin: auto;
         flex-direction: row;
