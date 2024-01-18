@@ -47,6 +47,8 @@ body{
 /* Button area style */
 .login-signup{
     gap: 10px;
+    display: flex;
+    flex-direction: row;
 }
 .login{
     width: 80px;
@@ -57,6 +59,7 @@ body{
     line-height: 19px;
     font-family: inter;
     border: none;
+    color: rgba(166, 166, 166, 1);
 }
 .login:hover{
     font-size: 20px;
@@ -163,7 +166,7 @@ button:hover{
 .collapse-heading h1{
     font-size: 40px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 48px;
     text-align: center;
     font-family: 'Inter';
     color: rgba(25, 26, 21, 1);
@@ -839,14 +842,23 @@ input::placeholder{
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     /* nav menu responsive */
-    .navbar-toggler{
-        margin: auto;
-        margin-right: 10px;
-    }
-    .bissca{
+    .navbar {
         margin-top: 10px;
+    }
+    .nav-item{
+        margin: 10px 10px;
+    }
+    .navbar-nav {
+        gap: 0px;
+        margin-left: 0px;
+    }
+    .login{
+        border: 1px solid green;
+    }
+    .login-signup{
+        display: flex;
+        flex-direction: column;
     }
    .container{
     width: 100%;
@@ -1452,6 +1464,15 @@ input::placeholder{
 }   
 /* responsive width desktop display */
 @media (min-width: 992px){
+    /* nav menu add */
+    .navbar-expand-lg .navbar-nav {
+        margin: auto;
+        flex-direction: row;
+    }
+    .login-signup{
+        display: flex;
+        flex-direction: row;
+    }
     .increase-area {
         display: flex;
         flex-direction: row;
