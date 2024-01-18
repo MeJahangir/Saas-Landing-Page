@@ -7,22 +7,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 } 
-
-
 @media (min-width: 1200px) {
     .container {
         max-width: 1180px;
     }
-}
-/* 
-.navbar{
-    width: 1180px;
-    margin: auto;
-    overflow: hidden;
-} 
-.nav-alignment{
-    margin-top: 40px;
-    margin-bottom: 130px;
 }
 /* Heading caption */
 .header-area{
@@ -840,6 +828,15 @@ input::placeholder{
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    /* nav menu responsive */
+    .navbar-toggler{
+        margin: auto;
+        margin-right: 10px;
+    }
+    .bissca{
+        margin-top: 10px;
+    }
    .container{
     width: 100%;
     margin: 0 auto;
@@ -1220,6 +1217,10 @@ input::placeholder{
         background-image: url(images/Background-img.svg);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    /* nav menu responsive */
+    .bissca{
+        margin-top: 0px;
     }
     .bg-img {
         width: 75%;
