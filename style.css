@@ -837,11 +837,11 @@ input::placeholder{
 /* responsive area */
 /* Mobile responsive area */
 @media (min-width:320px){
-    body{
+    /* body{
         background-image: url(images/Background-img.svg);
         background-repeat: no-repeat;
         background-size: cover;
-    }
+    } */
     /* nav menu responsive */
     .navbar {
         margin-top: 10px;
