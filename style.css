@@ -788,6 +788,7 @@ input::placeholder{
     float: right;
     font-size: 14px;
     margin-top: 10px;
+    margin-right: 50px;
     line-height: 16.94px;
     color: rgba(166, 166, 166, 1)
 }
@@ -1204,7 +1205,7 @@ input::placeholder{
     }
     .from-con {
         max-width: 100%;
-        height: auto;
+        height: 534px;
         padding: 0;
         margin: auto;
         padding: 20px 20px 0px 30px;
@@ -1220,7 +1221,11 @@ input::placeholder{
     }
     .from-btn{
         max-width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
+    }
+    .free-trial{
+        margin-right: 66px;
+        margin-top: 20px;
     }
     .help-care {
         text-align: left;
@@ -1304,6 +1309,14 @@ input::placeholder{
     .email{
         width: 450px;
         margin: auto;
+    }
+    .footer-area{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .free-trial{
+        margin-right: 30px;
+        margin-top: 8px;
     }
 
     
@@ -1430,7 +1443,7 @@ input::placeholder{
     .man-img {
         margin: auto;
         display: flex;
-        margin-top: 50px;
+        margin-top: 30px;
         text-align: center;
         flex-direction: row;
     }
@@ -1452,9 +1465,9 @@ input::placeholder{
         text-align: center;
     }
     .from-con {
-        padding: 0;
-        height: auto;
+        height: 530px;
         margin: auto;
+        margin-top: 40px;
         max-width: 100%;
         padding: 20px 20px 0px 30px; 
     }
@@ -1475,7 +1488,13 @@ input::placeholder{
     }
     .from-btn{
         max-width: 100%;
-        margin-bottom: 30px;
+        margin: auto;
+        display: block;
+        margin-top: 20px;
+    }
+    .free-trial {
+        margin-right: 110px;
+        margin-top: 8px;
     }
     .help-care {
         margin-left: 70px;
@@ -1485,7 +1504,11 @@ input::placeholder{
     }
     .footer-contant{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .footer-area{
+        text-align: center;
+        margin-top: 50px;
     }
 }   
 /* responsive width desktop display */
@@ -1668,7 +1691,8 @@ input::placeholder{
         color: rgba(25, 26, 21, 1);
     }
     .from-con{
-        width: 430px;
+        width: 450px;
+        height: 550px;
     }
     input {
         width: 300px;
@@ -1685,6 +1709,11 @@ input::placeholder{
     }
     .from-btn{
         width: 300px;
+        margin-bottom: 0px;
+    }
+    .free-trial {
+        margin-right: 50px;
+        margin-top: 8px;
     }
     .Biccas{
         margin-top: 55px;
