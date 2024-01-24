@@ -1144,6 +1144,9 @@ input::placeholder{
         margin: auto;
         padding-top: 40px;
     }
+    .footer-contant{
+        flex-direction: column-reverse;
+    }
     .footer-area{
         text-align: center;
     }
