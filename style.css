@@ -1716,7 +1716,8 @@ input::placeholder{
         margin-top: 8px;
     }
     .Biccas{
-        margin-top: 55px;
+        width: 45%;
+        margin-top: 0px; 
     }
     .footer-para-bottom{
         margin-top: 150px;
@@ -1746,11 +1747,16 @@ input::placeholder{
         text-align: left;
     }
     .help-care{
+        width: 55%;
         margin-left: 0px;
+        margin-top: 0px;
     }
     .email{
         width: 400px;
         float: left;
+    }
+    .footer-bttom{
+        margin-top: 110px;
     }
 }
 /* responsive min width 1200 to 1399 for desktop */
