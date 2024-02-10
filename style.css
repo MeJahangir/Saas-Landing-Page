@@ -799,36 +799,25 @@ input::placeholder{
     line-height: 16.94px;
     color: rgba(255, 255, 255, 1);
 }
-/* .help-care {
-   margin-top: 90px;
-}
-.care {
-    font-size: 18px;    
-    font-weight: 500;
-    margin-bottom: 30px;
-    line-height: 21.78px;
-    font-family: 'Inter';
-    color: rgba(255, 255, 255, 1);
-}
-.services{
-   font-size: 18px; 
-   font-weight: 500;
-   margin-top: 20px;
-   line-height: 21.78px;
-   font-family: 'Inter';
-   color: rgba(166, 166, 166, 1);
-}
-.conditon{
-    font-size: 18px;
-    margin-top: 38px;
-    font-weight: 500;
-    line-height: 30px;
-    font-family: 'Inter';
-    color: rgba(255, 255, 255, 1);
-    margin-bottom: 40px;
-} */
+/* Helping area add    */
 .biccas-area{
     margin-top: 170px;
+}
+.input-with-button {
+    position: relative;
+    display: inline-block;
+    border: 2px solid green;
+}
+
+.input-with-button input[type="text"] {
+    padding-right: 40px; 
+    box-sizing: border-box;
+}
+
+.input-with-button button {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .row-color{
     color: rgba(166, 166, 166, 1);
