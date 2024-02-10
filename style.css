@@ -799,7 +799,7 @@ input::placeholder{
     line-height: 16.94px;
     color: rgba(255, 255, 255, 1);
 }
-.help-care {
+/* .help-care {
    margin-top: 90px;
 }
 .care {
@@ -826,10 +826,15 @@ input::placeholder{
     font-family: 'Inter';
     color: rgba(255, 255, 255, 1);
     margin-bottom: 40px;
+} */
+.biccas-area{
+    margin-top: 170px;
 }
-
 .row-color{
-    color: red;
+    color: rgba(166, 166, 166, 1);
+}
+.helping-heading{
+    color: rgba(255, 255, 255, 1);
 }
 /* responsive area */
 /* Mobile responsive area */
