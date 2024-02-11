@@ -1251,6 +1251,13 @@ input::placeholder{
         max-width: 100%;
         margin-bottom: 0px;
     }
+    .biccas-help{
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper{
+        margin: auto;
+    }
     .biccas-area{
         margin-top: 50px;
     }
