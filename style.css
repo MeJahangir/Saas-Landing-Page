@@ -1188,6 +1188,7 @@ input::placeholder{
         font-weight: 700;
         line-height: 50px;
         text-align: center;
+        margin-top: 40px;
     }
     .footer-para-1{
         text-align: center;
@@ -1256,6 +1257,10 @@ input::placeholder{
     .caption-2{
         text-align: center;
     }
+    .footer-para{
+        text-align: center;
+        margin: 30px 0px;
+    }
     .helping-para{
         display: flex;
         flex-direction: column;
@@ -1264,10 +1269,6 @@ input::placeholder{
     .col-mt{
         margin-top: 30px;
     }
-    /* .copyright-conditon{
-        display: flex;
-        flex-direction: column;
-    } */
     .copyright-biccas p{
         font-size: 5px;
         margin-top: 10px;
@@ -1348,8 +1349,34 @@ input::placeholder{
         margin-right: 30px;
         margin-top: 8px;
     }
-
-    
+    .biccas-help{
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper{
+        margin: auto;
+    }
+    .helping-para{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .copyright-biccas p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .terms-conditon p{
+        font-size: 10px;
+    }
+    .copyright-conditon{
+        margin-top: 30px;
+    }
+    .copyright-biccas p{
+        font-size: 10px;
+    }
+    .terms-conditon p{
+        font-size: 10px;
+    }
 }
 /* min width 768px to 992px for ipad mini */
 @media (min-width: 768px) {
@@ -1723,6 +1750,7 @@ input::placeholder{
     .from-con{
         width: 450px;
         height: 550px;
+        margin-top: 105px;
     }
     input {
         width: 300px;
@@ -1773,21 +1801,37 @@ input::placeholder{
     .footer-para-2{
         text-align: left;
     }
+    .biccas-help{
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+    }
     .caption-2{
         text-align: left;
     }
-    .help-care{
-        width: 55%;
-        margin-left: 0px;
-        margin-top: 0px;
+    .caption-2{
+        text-align: left;
     }
-    .email{
-        width: 400px;
+    .footer-para{
+        text-align: left;
+        margin: 30px 0px;
+    }
+    .wrapper{
         float: left;
     }
-    .footer-bttom{
-        margin-top: 110px;
+    .col-mt{
+        margin-top: 0px;
     }
+    .copyright-conditon{
+        margin-top: 50px;
+    }
+    .copyright-biccas p{
+        font-size: 18px;
+    }
+    .terms-conditon p{
+        font-size: 18px;
+    }
+
 }
 /* responsive min width 1200 to 1399 for desktop */
 @media (min-width: 1200px){
@@ -1918,9 +1962,33 @@ input::placeholder{
     .footer-heading h1{
         font-size: 41px;
     }
-    .help-care {
-        /* text-align: center; */
-        margin-left: 50px;
+    .biccas-help{
+        display: flex;
+        flex-direction: row;
+    }
+    .caption-2{
+        text-align: left;
+    }
+    .footer-para{
+        text-align: left;
+        margin: 30px 0px;
+    }
+    .wrapper{
+        float: left;
+    }
+    .helping-para{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .copyright-conditon{
+        margin-top: 50px;
+    }
+    .copyright-biccas p{
+        font-size: 18px;
+    }
+    .terms-conditon p{
+        font-size: 18px;
     }
 
 }
