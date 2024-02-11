@@ -1721,7 +1721,7 @@ input::placeholder{
     }
     .plan {
         padding: 30px;
-        background-color: rgb(232 240 247);
+        background-color: rgba(249, 250, 251, 1);
         border-radius: 15px;
     }
     .plan-con p{
@@ -1960,7 +1960,7 @@ input::placeholder{
         color: rgba(25, 26, 21, 1);
     }
     .plan-con{
-        background-color: rgb(252, 249, 249);
+        background-color: rgba(255, 255, 255, 1);
         box-shadow: white 1px 0px 13px 0px;
     }
     .plan-con p{
