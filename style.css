@@ -1953,7 +1953,7 @@ input::placeholder{
         margin-top: -30px;
     }
     .free-plan h6 {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
         line-height: 29px;
         font-family: 'Inter';
@@ -1965,6 +1965,12 @@ input::placeholder{
     }
     .plan-con p{
         padding: 0px;
+    }
+    .choose-plan {
+        margin-top: 130px;
+    }
+    .collapse-heading {
+        margin-bottom: 30px;
     }
     .footer-heading h1{
         font-size: 41px;
